@@ -6,10 +6,13 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const [role, setRole] = useState('buyer'); // Default to buyer
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
+    setLoading(true);
+    setError('');
     
     try {
       // Login with our backend API
@@ -42,24 +45,32 @@ const Login = () => {
         setError(data.message);
       }
     } catch (err) {
-      setError('An error occurred during login');
+      setError('An error occurred during login. Please try again.');
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
     <div className="auth-container">
       <div className="auth-form">
-        <h2>Log In</h2>
-        {error && <p className="error">{error}</p>}
+        <h2>Welcome Back</h2>
+        <p className="text-center" style={{ textAlign: 'center', marginBottom: '1.5rem', color: '#6c757d' }}>
+          Sign in to your account
+        </p>
+        
+        {error && <div className="alert alert-error">{error}</div>}
+        
         <form onSubmit={handleLogin}>
           <div className="form-group">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Email Address</label>
             <input
               type="email"
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
+              placeholder="Enter your email"
             />
           </div>
           
@@ -71,6 +82,7 @@ const Login = () => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
+              placeholder="Enter your password"
             />
           </div>
           
@@ -86,12 +98,20 @@ const Login = () => {
             </select>
           </div>
           
-          <button type="submit" className="auth-button">Log In</button>
+          <button 
+            type="submit" 
+            className="auth-button"
+            disabled={loading}
+          >
+            {loading ? 'Signing In...' : 'Sign In'}
+          </button>
         </form>
         
-        <p>
-          Don't have an account? <Link to="/signup">Sign up</Link>
-        </p>
+        <div style={{ textAlign: 'center', marginTop: '1rem' }}>
+          <p>
+            Don't have an account? <Link to="/signup" style={{ color: '#4361ee', textDecoration: 'none' }}>Sign up</Link>
+          </p>
+        </div>
       </div>
     </div>
   );

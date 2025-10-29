@@ -8,13 +8,23 @@ const SignUp = () => {
   const [name, setName] = useState('');
   const [role, setRole] = useState('buyer');
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
   const handleSignUp = async (e) => {
     e.preventDefault();
+    setLoading(true);
+    setError('');
     
     if (password !== confirmPassword) {
       setError('Passwords do not match');
+      setLoading(false);
+      return;
+    }
+    
+    if (password.length < 6) {
+      setError('Password must be at least 6 characters long');
+      setLoading(false);
       return;
     }
     
@@ -49,35 +59,44 @@ const SignUp = () => {
         setError(data.message);
       }
     } catch (err) {
-      setError('An error occurred during sign up');
+      setError('An error occurred during sign up. Please try again.');
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
     <div className="auth-container">
       <div className="auth-form">
-        <h2>Sign Up</h2>
-        {error && <p className="error">{error}</p>}
+        <h2>Create Account</h2>
+        <p className="text-center" style={{ textAlign: 'center', marginBottom: '1.5rem', color: '#6c757d' }}>
+          Join our marketplace community
+        </p>
+        
+        {error && <div className="alert alert-error">{error}</div>}
+        
         <form onSubmit={handleSignUp}>
           <div className="form-group">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Full Name</label>
             <input
               type="text"
               id="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
+              placeholder="Enter your full name"
             />
           </div>
           
           <div className="form-group">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Email Address</label>
             <input
               type="email"
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
+              placeholder="Enter your email"
             />
           </div>
           
@@ -89,6 +108,8 @@ const SignUp = () => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
+              placeholder="Create a password"
+              minLength="6"
             />
           </div>
           
@@ -100,27 +121,36 @@ const SignUp = () => {
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
               required
+              placeholder="Confirm your password"
             />
           </div>
           
           <div className="form-group">
-            <label htmlFor="role">Role</label>
+            <label htmlFor="role">I want to</label>
             <select
               id="role"
               value={role}
               onChange={(e) => setRole(e.target.value)}
             >
-              <option value="buyer">Buyer</option>
-              <option value="seller">Seller</option>
+              <option value="buyer">Buy products</option>
+              <option value="seller">Sell products</option>
             </select>
           </div>
           
-          <button type="submit" className="auth-button">Sign Up</button>
+          <button 
+            type="submit" 
+            className="auth-button"
+            disabled={loading}
+          >
+            {loading ? 'Creating Account...' : 'Create Account'}
+          </button>
         </form>
         
-        <p>
-          Already have an account? <Link to="/login">Log in</Link>
-        </p>
+        <div style={{ textAlign: 'center', marginTop: '1rem' }}>
+          <p>
+            Already have an account? <Link to="/login" style={{ color: '#4361ee', textDecoration: 'none' }}>Sign in</Link>
+          </p>
+        </div>
       </div>
     </div>
   );

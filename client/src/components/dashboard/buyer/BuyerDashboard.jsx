@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useLocation, useParams } from 'react-router-dom';
 import MLRecommendations from './MLRecommendations';
+import ProductGrid from '../ProductGrid';
 
 // Mock data as fallback
 const mockProducts = [
@@ -222,34 +223,54 @@ const BuyerDashboard = () => {
 // Buyer Home Component
 const BuyerHome = ({ userData, products, notifications }) => (
   <div>
-    <h2>Welcome back, {userData?.name}!</h2>
     <div className="dashboard-summary">
       <div className="summary-card">
-        <h3>Recommended For You</h3>
-        <MLRecommendations products={products} userId={userData?.id} />
+        <h3>Welcome back, {userData?.name}!</h3>
+        <p><strong>Email:</strong> {userData?.email}</p>
+        <p><strong>Member since:</strong> {userData?.memberSince}</p>
+        <div style={{ marginTop: '1rem' }}>
+          <Link to="/buyer/profile" className="btn btn-primary">View Profile</Link>
+        </div>
       </div>
       
       <div className="summary-card">
-        <h3>Recent Products</h3>
-        <ProductGrid products={products.slice(0, 4)} />
+        <h3>Marketplace Overview</h3>
+        <p><strong>Total Products:</strong> {products.length}</p>
+        <p><strong>Categories:</strong> {new Set(products.map(p => p.category)).size}</p>
+        <Link to="/buyer/products" className="btn btn-primary">Browse Products</Link>
       </div>
       
       <div className="summary-card">
-        <h3>Notifications</h3>
+        <h3>Recent Activity</h3>
         {notifications.length > 0 ? (
-          <ul>
+          <ul style={{ listStyle: 'none', padding: 0 }}>
             {notifications.slice(0, 3).map(notification => (
-              <li key={notification.id}>
+              <li key={notification.id} style={{ marginBottom: '0.5rem', padding: '0.5rem', backgroundColor: '#f8f9fa', borderRadius: '4px' }}>
                 <strong>{notification.title}</strong>
-                <p>{notification.message}</p>
+                <p style={{ margin: '0.25rem 0 0 0', fontSize: '0.9rem' }}>{notification.message}</p>
               </li>
             ))}
           </ul>
         ) : (
-          <p>No new notifications</p>
+          <p>No recent activity</p>
         )}
         <Link to="/buyer/notifications" className="btn btn-secondary">View All</Link>
       </div>
+    </div>
+    
+    <div className="card">
+      <div className="card-header">
+        <h3>Featured Products</h3>
+      </div>
+      <ProductGrid products={products.slice(0, 4)} userType="buyer" />
+    </div>
+    
+    {/* ML Recommendations Section */}
+    <div className="ml-recommendations">
+      <div className="recommendations-header">
+        <h2>Recommended For You</h2>
+      </div>
+      <MLRecommendations products={products} userId={userData?.id} />
     </div>
   </div>
 );

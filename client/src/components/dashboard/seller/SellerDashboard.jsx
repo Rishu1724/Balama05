@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import MLInsights from './MLInsights';
+import ProductGrid from '../ProductGrid';
 
 // Mock data as fallback
 const mockProducts = [
@@ -220,26 +221,32 @@ const SellerDashboard = () => {
 
 const SellerHome = ({ userData, products, notifications }) => (
   <div>
-    <h2>Seller Dashboard</h2>
     <div className="dashboard-summary">
       <div className="summary-card">
         <h3>Welcome back, {userData?.name}!</h3>
-        <p>Store: {userData?.storeName}</p>
-        <p>Member since: {userData?.memberSince}</p>
+        <p><strong>Store:</strong> {userData?.storeName}</p>
+        <p><strong>Member since:</strong> {userData?.memberSince}</p>
+        <div style={{ marginTop: '1rem' }}>
+          <Link to="/seller/store" className="btn btn-primary">Manage Store</Link>
+        </div>
       </div>
       
       <div className="summary-card">
         <h3>Your Products</h3>
-        <p>Total Products: {products.length}</p>
+        <p><strong>Total Products:</strong> {products.length}</p>
+        <p><strong>Active Products:</strong> {products.filter(p => p.status === 'active').length}</p>
         <Link to="/seller/products" className="btn btn-primary">Manage Products</Link>
       </div>
       
       <div className="summary-card">
         <h3>Recent Notifications</h3>
         {notifications.length > 0 ? (
-          <ul>
+          <ul style={{ listStyle: 'none', padding: 0 }}>
             {notifications.slice(0, 3).map(notification => (
-              <li key={notification.id}>{notification.message}</li>
+              <li key={notification.id} style={{ marginBottom: '0.5rem', padding: '0.5rem', backgroundColor: '#f8f9fa', borderRadius: '4px' }}>
+                <strong>{notification.title}</strong>
+                <p style={{ margin: '0.25rem 0 0 0', fontSize: '0.9rem' }}>{notification.message}</p>
+              </li>
             ))}
           </ul>
         ) : (
@@ -247,6 +254,13 @@ const SellerHome = ({ userData, products, notifications }) => (
         )}
         <Link to="/seller/notifications" className="btn btn-secondary">View All</Link>
       </div>
+    </div>
+    
+    <div className="card">
+      <div className="card-header">
+        <h3>Recently Added Products</h3>
+      </div>
+      <ProductGrid products={products.slice(0, 4)} userType="seller" />
     </div>
     
     {/* ML Insights Section */}
