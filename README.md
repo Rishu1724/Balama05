@@ -2,74 +2,86 @@
 
 A full-featured marketplace application with separate dashboards for buyers and sellers.
 
+## Prerequisites
+
+- Node.js (v16 or higher)
+- MongoDB Atlas account (for production) or MongoDB Community Server (for local development)
+- npm or yarn
+
 ## Setup Instructions
 
-### Prerequisites
-- Node.js (v14 or higher)
-- Firebase account
-
-### Installation
-
-1. Clone the repository
-2. Install dependencies for both client and server:
-   ```bash
-   cd client && npm install
-   cd ../server && npm install
-   ```
-
-### Firebase Setup
-
-1. Create a Firebase project at https://console.firebase.google.com/
-2. Enable Firestore Database and Storage
-3. Update the Firebase configuration in `client/src/firebase.js` with your project credentials
-4. Deploy the security rules from `firebase.rules` to your Firebase project
-
-### Environment Variables
-
-Create `.env` files in both client and server directories:
-
-**Client (.env)**
-```
-REACT_APP_API_URL=http://localhost:5000/api
-REACT_APP_FIREBASE_API_KEY=your_api_key
-REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
-REACT_APP_FIREBASE_PROJECT_ID=your_project_id
-REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-REACT_APP_FIREBASE_APP_ID=your_app_id
-REACT_APP_FIREBASE_MEASUREMENT_ID=your_measurement_id
+### 1. Clone the Repository
+```bash
+git clone <repository-url>
+cd Balama005
 ```
 
-**Server (.env)**
-```
-PORT=5000
-NODE_ENV=development
-JWT_SECRET=your_jwt_secret
-STRIPE_SECRET_KEY=your_stripe_secret_key
-TWILIO_ACCOUNT_SID=your_twilio_account_sid
-TWILIO_AUTH_TOKEN=your_twilio_auth_token
-SENDGRID_API_KEY=your_sendgrid_api_key
-GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+### 2. Install Dependencies
+
+#### Backend (Server)
+```bash
+cd server
+npm install
 ```
 
-### Running the Application
+#### Frontend (Client)
+```bash
+cd ../client
+npm install
+```
 
-1. Start the backend server:
-   ```bash
-   cd server && npm run dev
-   ```
+#### ML Engine
+```bash
+cd ../ml
+npm install
+```
 
-2. Start the frontend:
-   ```bash
-   cd client && npm run dev
-   ```
+### 3. Environment Variables
 
-3. Visit `http://localhost:3000` in your browser
+The .env files are already configured for development. You can modify them if needed:
+
+- **Client**: `client/.env`
+- **Server**: `server/.env`
+- **ML Engine**: `ml/.env`
+
+### 4. Start the Application
+
+#### Option 1: Start All Services Separately
+
+1. **Start Backend Server** (in a new terminal):
+```bash
+cd server
+node server.js
+```
+
+2. **Start Frontend Application** (in a new terminal):
+```bash
+cd client
+npm run dev
+```
+
+3. **Start ML Engine** (in a new terminal):
+```bash
+cd ml
+node index.js
+```
+
+#### Option 2: Using Batch Script (Windows)
+```bash
+start-all.bat
+```
+
+### 5. Access the Application
+
+Once all services are running:
+- **Frontend**: http://localhost:3000
+- **Backend API**: http://localhost:3001
+- **ML Engine**: http://localhost:4000
 
 ## Features
 
 ### Seller Dashboard
-- Product Management (Upload products with images)
+- Product Management
 - Order Management
 - Messaging System
 - Store Profile
@@ -90,32 +102,87 @@ GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 - Notifications
 - Settings
 
+## Technology Stack
+
+### Frontend
+- React.js 18+
+- Vite (Build Tool)
+- Tailwind CSS (Styling)
+- Firebase SDK
+- Zustand (State Management)
+- React Hook Form (Form Handling)
+- Axios (HTTP Requests)
+- Socket.io (Real-time Communication)
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Primary Database)
+- Firebase Admin SDK
+- Multer (File Uploads)
+- JWT (Authentication)
+- Nodemailer (Email)
+- Stripe (Payments)
+
+### ML Engine
+- Node.js
+- Express.js
+- TensorFlow.js (ML Library)
+- CSV Parser (Data Processing)
+
+## Database
+
+The application uses MongoDB as the primary database. The connection is configured in `server/.env`:
+```
+MONGODB_URI=mongodb+srv://rishukumar1724rr_db_user:95KLe8FKh85mJzIQ@cluster0.jmngfes.mongodb.net/marketplace?retryWrites=true&w=majority
+```
+
+## API Endpoints
+
+### Authentication
+- `POST /api/auth/signup` - User registration
+- `POST /api/auth/login` - User login
+
+### Products
+- `GET /api/products` - Get all products
+- `POST /api/products` - Create a new product
+- `GET /api/products/:id` - Get product by ID
+- `PUT /api/products/:id` - Update product
+- `DELETE /api/products/:id` - Delete product
+
+### Orders
+- `GET /api/orders` - Get all orders
+- `POST /api/orders` - Create a new order
+- `GET /api/orders/:id` - Get order by ID
+
+### Users
+- `GET /api/users/:id` - Get user by ID
+- `PUT /api/users/:id` - Update user
+
+## Machine Learning Features
+
+### Seller Features
+- Demand Forecasting
+- Price Optimization
+- Delivery Time Prediction
+- Product Recommendations
+- Stock Level Forecasting
+
+### Buyer Features
+- Personalized Recommendations
+- Smart Search Ranking
+- Dynamic Offers
+
 ## Troubleshooting
 
-### Firebase Permissions Error
-If you see "Missing or insufficient permissions" errors:
-1. Make sure you've deployed the Firebase security rules from `firebase.rules`
-2. Ensure your Firebase project has Firestore Database and Storage enabled
-3. Check that your Firebase configuration in `client/src/firebase.js` is correct
+### Common Issues
 
-### React Router Warnings
-The warnings about future flags are normal and can be ignored for now. They indicate upcoming changes in React Router v7.
+1. **Port Conflicts**: If ports 3000, 3001, or 4000 are in use, the application will automatically select alternative ports.
 
-### Image Upload Issues
-If images are not uploading:
-1. Check that Firebase Storage is enabled in your project
-2. Verify the storage bucket name in your Firebase configuration
-3. Ensure the security rules allow write access for authenticated users
+2. **MongoDB Connection**: Ensure you have internet connectivity and the MongoDB Atlas connection string is correct.
 
-## Technologies Used
+3. **CORS Errors**: The backend is configured to allow requests from http://localhost:3000.
 
-- Frontend: React, Vite, Firebase SDK
-- Backend: Node.js, Express.js, Firebase Admin SDK
-- Database: Firebase Firestore
-- Storage: Firebase Storage
-- Authentication: Firebase Authentication
+### Need Help?
 
-## Known Issues
-
-1. Firebase service account not configured for server-side operations (running in mock mode)
-2. Some CSS vendor prefixes may cause warnings in development
+If you encounter any issues, please check the console logs for error messages and ensure all environment variables are correctly configured.
