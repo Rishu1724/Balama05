@@ -1,0 +1,20 @@
+{
+  "name": "balama-ml-engine",
+  "version": "1.0.0",
+  "description": "Machine Learning Engine for Balama Marketplace",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "train": "node train.js",
+    "predict": "node predict.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "csv-parser": "^3.0.0",
+    "papaparse": "^5.4.1",
+    "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  }
+}

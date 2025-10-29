@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useLocation, useParams } from 'react-router-dom';
+import MLRecommendations from './MLRecommendations';
 
 // Mock data as fallback
 const mockProducts = [
@@ -223,6 +224,11 @@ const BuyerHome = ({ userData, products, notifications }) => (
   <div>
     <h2>Welcome back, {userData?.name}!</h2>
     <div className="dashboard-summary">
+      <div className="summary-card">
+        <h3>Recommended For You</h3>
+        <MLRecommendations products={products} userId={userData?.id} />
+      </div>
+      
       <div className="summary-card">
         <h3>Recent Products</h3>
         <ProductGrid products={products.slice(0, 4)} />

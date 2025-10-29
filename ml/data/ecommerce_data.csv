@@ -1,0 +1,41 @@
+product_id,product_name,category,price,quantity_sold,rating,stock_level,supplier_id,season,sales
+1,Smartphone X,Electronics,699.99,150,4.5,25,SP001,Winter,120
+2,Laptop Pro,Electronics,1299.99,85,4.7,12,SP002,Winter,75
+3,Wireless Headphones,Electronics,199.99,200,4.3,45,SP003,Winter,180
+4,Smart Watch,Electronics,299.99,120,4.6,30,SP001,Winter,100
+5,Bluetooth Speaker,Electronics,89.99,300,4.2,60,SP004,Winter,250
+6,Gaming Console,Electronics,499.99,90,4.8,15,SP005,Winter,80
+7,Tablet,Electronics,399.99,110,4.4,28,SP002,Winter,95
+8,Smart TV,Electronics,799.99,65,4.6,18,SP003,Winter,55
+9,Wireless Router,Electronics,79.99,180,4.1,40,SP006,Winter,150
+10,External Hard Drive,Electronics,129.99,140,4.3,35,SP001,Winter,120
+11,Coffee Maker,Home Appliances,89.99,95,4.5,22,SP007,Winter,85
+12,Blender,Home Appliances,49.99,160,4.2,50,SP008,Winter,140
+13,Microwave Oven,Home Appliances,129.99,75,4.4,18,SP007,Winter,65
+14,Vacuum Cleaner,Home Appliances,199.99,80,4.6,20,SP009,Winter,70
+15,Air Purifier,Home Appliances,249.99,60,4.7,15,SP010,Winter,50
+16,Electric Kettle,Home Appliances,39.99,200,4.1,65,SP008,Winter,180
+17,Toaster,Home Appliances,29.99,150,4.0,45,SP007,Winter,130
+18,Food Processor,Home Appliances,149.99,70,4.5,16,SP009,Winter,60
+19,Rice Cooker,Home Appliances,69.99,110,4.3,32,SP010,Winter,95
+20,Stand Mixer,Home Appliances,299.99,55,4.8,12,SP009,Winter,50
+21,Running Shoes,Sports,79.99,120,4.4,35,SP011,Winter,100
+22,Yoga Mat,Sports,29.99,80,4.2,25,SP012,Winter,70
+23,Dumbbell Set,Sports,149.99,45,4.7,10,SP011,Winter,40
+24,Water Bottle,Sports,19.99,200,4.0,80,SP013,Winter,180
+25,Backpack,Sports,49.99,90,4.3,30,SP014,Winter,80
+26,Novel,Books,14.99,300,4.1,100,SP015,Winter,250
+27,Textbook,Books,89.99,60,4.5,20,SP016,Winter,50
+28,Magazine,Books,5.99,150,3.8,75,SP017,Winter,120
+29,Desk Lamp,Home Decor,39.99,70,4.2,25,SP018,Winter,60
+30,Wall Art,Home Decor,59.99,40,4.6,15,SP019,Winter,35
+31,Bed Sheets,Home Decor,79.99,65,4.4,30,SP020,Winter,55
+32,Pillow,Home Decor,29.99,110,4.1,45,SP021,Winter,95
+33,Cookware Set,Kitchen,199.99,35,4.8,8,SP022,Winter,30
+34,Cutting Board,Kitchen,24.99,90,4.0,40,SP023,Winter,75
+35,Mixing Bowls,Kitchen,39.99,75,4.3,35,SP024,Winter,65
+36,Office Chair,Furniture,149.99,25,4.5,12,SP025,Winter,20
+37,Desk,Furniture,299.99,20,4.7,8,SP026,Winter,18
+38,Bookshelf,Furniture,89.99,30,4.2,15,SP027,Winter,25
+39,Plant Pot,Home Decor,19.99,60,4.0,30,SP028,Winter,50
+40,Picture Frame,Home Decor,14.99,80,4.1,40,SP029,Winter,70

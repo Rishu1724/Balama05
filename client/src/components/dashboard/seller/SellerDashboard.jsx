@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
+import MLInsights from './MLInsights';
 
 // Mock data as fallback
 const mockProducts = [
@@ -247,6 +248,9 @@ const SellerHome = ({ userData, products, notifications }) => (
         <Link to="/seller/notifications" className="btn btn-secondary">View All</Link>
       </div>
     </div>
+    
+    {/* ML Insights Section */}
+    <MLInsights products={products} />
   </div>
 );
 

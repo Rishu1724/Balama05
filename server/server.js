@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
+const path = require('path');
 const http = require('http');
 const socketIo = require('socket.io');
 const { connectToMongo } = require('./config/mongodb');
@@ -22,7 +23,14 @@ const promotionRoutes = require('./routes/promotionRoutes');
 const earningRoutes = require('./routes/earningRoutes');
 const analyticsRoutes = require('./routes/analyticsRoutes');
 
-dotenv.config();
+// Load environment variables with explicit path
+dotenv.config({ path: path.resolve(__dirname, '.env') });
+
+// Debug: Log environment variables
+console.log('JWT_SECRET loaded:', process.env.JWT_SECRET ? 'YES' : 'NO');
+console.log('PORT:', process.env.PORT || 3001);
+console.log('Current directory:', __dirname);
+console.log('Env file path:', path.resolve(__dirname, '.env'));
 
 const app = express();
 const server = http.createServer(app);

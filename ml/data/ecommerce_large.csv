@@ -1,0 +1,1001 @@
+product_id,product_name,category,price,quantity_sold,rating,stock_level,supplier_id,season,sales
+1,Kitchen Product 1,Kitchen,160.05,197,2.2,38,SP026,Spring,25223
+2,Beauty Product 2,Beauty,908.35,71,1.4,65,SP018,Spring,51594
+3,Automotive Product 3,Automotive,999.11,7,4.1,87,SP012,Summer,5595
+4,Kitchen Product 4,Kitchen,312.86,318,4.1,38,SP006,Winter,79591
+5,Furniture Product 5,Furniture,509.13,371,1.5,93,SP009,Spring,151109
+6,Sports Product 6,Sports,983.05,163,3.8,63,SP007,Fall,128189
+7,Books Product 7,Books,168.16,280,1.9,40,SP041,Summer,37667
+8,Home Decor Product 8,Home Decor,70.51,6,2.4,31,SP017,Summer,338
+9,Home Decor Product 9,Home Decor,143.31,361,4.7,28,SP040,Fall,41387
+10,Books Product 10,Books,363.92,357,4.8,15,SP001,Fall,103935
+11,Clothing Product 11,Clothing,675.18,55,3.2,84,SP021,Winter,29707
+12,Home Decor Product 12,Home Decor,519.62,86,3.4,2,SP026,Spring,35749
+13,Furniture Product 13,Furniture,416.88,431,3.6,89,SP044,Spring,143740
+14,Sports Product 14,Sports,332.83,13,4.3,46,SP017,Summer,3461
+15,Garden Product 15,Garden,267.72,483,4.8,4,SP046,Winter,103447
+16,Furniture Product 16,Furniture,408.54,177,5,25,SP022,Winter,57849
+17,Toys Product 17,Toys,625.18,77,1.1,10,SP036,Fall,38511
+18,Books Product 18,Books,91.08,441,2.7,32,SP004,Spring,32133
+19,Garden Product 19,Garden,709.29,48,3.3,8,SP038,Summer,27236
+20,Kitchen Product 20,Kitchen,337.14,468,3.6,64,SP047,Winter,126225
+21,Home Appliances Product 21,Home Appliances,786.29,343,4.8,5,SP048,Summer,215757
+22,Clothing Product 22,Clothing,500.51,228,4.2,13,SP037,Winter,91293
+23,Kitchen Product 23,Kitchen,725.63,156,1.1,69,SP007,Summer,90558
+24,Kitchen Product 24,Kitchen,265.47,340,2.6,20,SP013,Spring,72207
+25,Kitchen Product 25,Kitchen,846.13,349,1.9,35,SP031,Fall,236239
+26,Garden Product 26,Garden,897.22,107,1.7,95,SP031,Spring,76802
+27,Toys Product 27,Toys,67.42,133,2.3,21,SP012,Summer,7173
+28,Sports Product 28,Sports,240.84,390,1.1,19,SP015,Winter,75142
+29,Electronics Product 29,Electronics,190.61,1,1.2,16,SP008,Fall,152
+30,Beauty Product 30,Beauty,181.5,229,4.3,45,SP014,Winter,33250
+31,Home Decor Product 31,Home Decor,476.78,431,3.6,87,SP010,Spring,164393
+32,Automotive Product 32,Automotive,536.77,171,3,80,SP022,Winter,73430
+33,Automotive Product 33,Automotive,194.08,52,4.8,28,SP050,Fall,8073
+34,Home Appliances Product 34,Home Appliances,121.33,388,1.5,27,SP021,Spring,37660
+35,Automotive Product 35,Automotive,859.26,272,3.2,66,SP023,Winter,186974
+36,Clothing Product 36,Clothing,633.35,209,2.7,61,SP007,Winter,105896
+37,Books Product 37,Books,811.82,282,1.5,87,SP023,Winter,183146
+38,Toys Product 38,Toys,677.34,488,2.5,64,SP015,Fall,264433
+39,Clothing Product 39,Clothing,439.94,46,4,81,SP037,Spring,16189
+40,Home Decor Product 40,Home Decor,1001.87,17,4.7,0,SP040,Fall,13625
+41,Clothing Product 41,Clothing,796.83,470,4.1,32,SP017,Spring,299608
+42,Kitchen Product 42,Kitchen,430.7,306,2.2,62,SP021,Summer,105435
+43,Electronics Product 43,Electronics,186.88,433,2.9,35,SP031,Fall,64735
+44,Furniture Product 44,Furniture,438.22,277,1.9,47,SP024,Fall,97109
+45,Automotive Product 45,Automotive,201.24,225,1.1,62,SP041,Summer,36223
+46,Home Appliances Product 46,Home Appliances,666.72,287,2.6,18,SP018,Summer,153078
+47,Home Appliances Product 47,Home Appliances,971.85,78,3.4,80,SP043,Winter,60643
+48,Clothing Product 48,Clothing,161.94,243,2,19,SP039,Winter,31481
+49,Beauty Product 49,Beauty,381.83,490,2.7,51,SP015,Fall,149677
+50,Electronics Product 50,Electronics,253.9,99,4.1,52,SP038,Fall,20108
+51,Clothing Product 51,Clothing,803.51,73,1.9,80,SP022,Fall,46924
+52,Home Appliances Product 52,Home Appliances,268.61,17,4.7,7,SP044,Summer,3653
+53,Home Decor Product 53,Home Decor,327.7,115,4,45,SP010,Spring,30148
+54,Toys Product 54,Toys,663.51,228,1,91,SP002,Spring,121024
+55,Home Decor Product 55,Home Decor,773.29,156,2.8,36,SP039,Fall,96506
+56,Garden Product 56,Garden,739.75,254,2.4,51,SP029,Summer,150317
+57,Home Decor Product 57,Home Decor,302.16,422,2.9,93,SP017,Fall,102009
+58,Books Product 58,Books,113.64,53,2.3,12,SP041,Summer,4818
+59,Electronics Product 59,Electronics,513.12,28,1.7,49,SP019,Fall,11493
+60,Home Appliances Product 60,Home Appliances,147.72,241,1.6,87,SP030,Summer,28480
+61,Automotive Product 61,Automotive,705.26,498,1.8,41,SP022,Winter,280975
+62,Toys Product 62,Toys,202.72,88,3,11,SP034,Winter,14271
+63,Electronics Product 63,Electronics,706.93,186,1.1,27,SP008,Winter,105191
+64,Toys Product 64,Toys,904.04,283,2.6,20,SP042,Summer,204674
+65,Clothing Product 65,Clothing,746.96,322,3,86,SP031,Summer,192416
+66,Automotive Product 66,Automotive,752.54,489,3.4,23,SP006,Spring,294393
+67,Kitchen Product 67,Kitchen,385.96,233,4.5,54,SP047,Spring,71942
+68,Automotive Product 68,Automotive,470.63,283,4.3,99,SP005,Summer,106550
+69,Garden Product 69,Garden,593.36,486,1.5,98,SP031,Winter,230698
+70,Kitchen Product 70,Kitchen,260.92,326,4.4,56,SP032,Summer,68047
+71,Beauty Product 71,Beauty,829.44,125,2,83,SP009,Winter,82944
+72,Books Product 72,Books,434.87,321,4.1,57,SP002,Spring,111674
+73,Electronics Product 73,Electronics,993.82,60,1.3,77,SP003,Winter,47703
+74,Home Appliances Product 74,Home Appliances,974.22,347,4,81,SP021,Winter,270443
+75,Furniture Product 75,Furniture,129.43,327,3,80,SP008,Fall,33858
+76,Automotive Product 76,Automotive,773.84,55,2.3,66,SP035,Summer,34048
+77,Automotive Product 77,Automotive,909.83,218,1.5,80,SP046,Spring,158674
+78,Clothing Product 78,Clothing,846.12,371,2.3,34,SP036,Fall,251128
+79,Sports Product 79,Sports,49.7,22,1.7,31,SP006,Fall,874
+80,Home Appliances Product 80,Home Appliances,705.93,278,2,45,SP039,Winter,156998
+81,Books Product 81,Books,569.92,58,4.3,75,SP043,Fall,26444
+82,Electronics Product 82,Electronics,958,484,2.2,42,SP011,Fall,370937
+83,Clothing Product 83,Clothing,525.51,26,1.3,19,SP043,Spring,10930
+84,Electronics Product 84,Electronics,510.92,470,2.9,76,SP034,Summer,192105
+85,Beauty Product 85,Beauty,570.24,87,2.5,93,SP022,Summer,39688
+86,Kitchen Product 86,Kitchen,404.3,183,1.1,49,SP014,Winter,59189
+87,Furniture Product 87,Furniture,138.35,132,2.7,57,SP033,Summer,14609
+88,Furniture Product 88,Furniture,707.39,292,2,15,SP039,Summer,165246
+89,Electronics Product 89,Electronics,651.26,457,3,17,SP007,Spring,238100
+90,Home Decor Product 90,Home Decor,589.19,257,2.9,21,SP007,Fall,121137
+91,Garden Product 91,Garden,680.14,92,4.4,8,SP049,Spring,50058
+92,Sports Product 92,Sports,522.3,472,3.3,1,SP016,Spring,197220
+93,Kitchen Product 93,Kitchen,771.55,424,4.3,77,SP045,Spring,261709
+94,Home Appliances Product 94,Home Appliances,576.39,461,3.7,42,SP004,Winter,212572
+95,Clothing Product 95,Clothing,1002.6,391,4,59,SP041,Spring,313613
+96,Home Appliances Product 96,Home Appliances,188.46,254,4,97,SP042,Summer,38295
+97,Garden Product 97,Garden,500.09,419,4.1,39,SP047,Summer,167630
+98,Sports Product 98,Sports,708.56,107,3.3,47,SP033,Spring,60652
+99,Toys Product 99,Toys,58.05,30,2.1,62,SP017,Spring,1393
+100,Clothing Product 100,Clothing,394.85,410,4.8,28,SP026,Fall,129510
+101,Home Decor Product 101,Home Decor,289.05,406,1.2,45,SP045,Fall,93883
+102,Electronics Product 102,Electronics,779.56,174,2.2,65,SP021,Summer,108514
+103,Garden Product 103,Garden,587.9,36,3.6,14,SP023,Fall,16931
+104,Toys Product 104,Toys,743.57,377,3.8,33,SP050,Summer,224260
+105,Books Product 105,Books,994.04,278,2.5,51,SP037,Fall,221074
+106,Beauty Product 106,Beauty,212.73,222,4,94,SP035,Fall,37780
+107,Toys Product 107,Toys,539.06,264,3.3,12,SP049,Fall,113849
+108,Furniture Product 108,Furniture,703.73,8,4.6,10,SP023,Spring,4503
+109,Toys Product 109,Toys,556.46,474,2.4,2,SP036,Spring,211009
+110,Beauty Product 110,Beauty,703.89,332,2,57,SP027,Spring,186953
+111,Clothing Product 111,Clothing,996.08,477,4.6,25,SP012,Fall,380104
+112,Automotive Product 112,Automotive,598.9,351,3.3,20,SP026,Summer,168171
+113,Furniture Product 113,Furniture,368.01,63,3,90,SP027,Fall,18547
+114,Beauty Product 114,Beauty,27.95,467,3.1,56,SP026,Summer,10442
+115,Sports Product 115,Sports,170.54,326,3.9,75,SP010,Winter,44476
+116,Books Product 116,Books,735.45,71,3.8,34,SP024,Spring,41773
+117,Home Decor Product 117,Home Decor,940.7,493,1.1,87,SP036,Summer,371012
+118,Garden Product 118,Garden,618.25,320,2.8,67,SP025,Winter,158272
+119,Furniture Product 119,Furniture,638,89,2.6,55,SP023,Summer,45425
+120,Garden Product 120,Garden,222.53,422,4.4,24,SP033,Winter,75126
+121,Beauty Product 121,Beauty,134.66,346,1.4,48,SP033,Fall,37273
+122,Automotive Product 122,Automotive,502.43,286,2.5,17,SP017,Spring,114955
+123,Automotive Product 123,Automotive,738.15,277,2.3,15,SP042,Spring,163574
+124,Clothing Product 124,Clothing,809.69,206,4.3,67,SP021,Spring,133436
+125,Books Product 125,Books,243.43,174,4,35,SP043,Spring,33885
+126,Home Appliances Product 126,Home Appliances,57.51,498,3.6,20,SP039,Winter,22911
+127,Beauty Product 127,Beauty,256.14,215,2.3,32,SP032,Summer,44056
+128,Kitchen Product 128,Kitchen,359.85,494,2.8,25,SP025,Summer,142212
+129,Electronics Product 129,Electronics,23.86,199,3.3,65,SP015,Winter,3798
+130,Books Product 130,Books,740.33,443,4.7,80,SP018,Fall,262372
+131,Books Product 131,Books,99.83,363,1.4,16,SP019,Fall,28990
+132,Toys Product 132,Toys,17.95,269,1,13,SP029,Fall,3862
+133,Beauty Product 133,Beauty,786.98,461,1.4,50,SP014,Spring,290238
+134,Sports Product 134,Sports,503.86,232,4.7,44,SP001,Spring,93516
+135,Home Decor Product 135,Home Decor,572.52,347,1.4,12,SP050,Summer,158931
+136,Electronics Product 136,Electronics,63.21,488,4.9,4,SP029,Fall,24677
+137,Clothing Product 137,Clothing,115.03,90,1.7,75,SP017,Winter,8282
+138,Automotive Product 138,Automotive,572.95,370,1.3,73,SP024,Spring,169593
+139,Clothing Product 139,Clothing,723.68,395,4.8,81,SP024,Summer,228682
+140,Home Appliances Product 140,Home Appliances,430.06,442,4.7,78,SP025,Fall,152069
+141,Beauty Product 141,Beauty,82.75,297,1.8,56,SP047,Winter,19661
+142,Automotive Product 142,Automotive,207.12,347,2.1,92,SP040,Spring,57496
+143,Books Product 143,Books,606.77,356,3.7,98,SP030,Spring,172808
+144,Home Appliances Product 144,Home Appliances,653.63,114,2.5,75,SP041,Fall,59611
+145,Home Decor Product 145,Home Decor,354.77,132,4.1,82,SP042,Winter,37463
+146,Home Appliances Product 146,Home Appliances,622.49,477,4.2,28,SP020,Winter,237542
+147,Electronics Product 147,Electronics,198.26,430,1.2,80,SP017,Summer,68201
+148,Sports Product 148,Sports,246,216,3.9,5,SP001,Fall,42508
+149,Home Decor Product 149,Home Decor,791.82,258,4.6,10,SP036,Summer,163431
+150,Automotive Product 150,Automotive,595.45,235,2.6,5,SP043,Summer,111944
+151,Beauty Product 151,Beauty,547.22,156,2.1,95,SP024,Winter,68293
+152,Sports Product 152,Sports,260.44,390,3,7,SP042,Spring,81257
+153,Electronics Product 153,Electronics,447.14,260,1.5,36,SP039,Summer,93005
+154,Furniture Product 154,Furniture,434.69,472,3.6,11,SP039,Winter,164138
+155,Automotive Product 155,Automotive,253.55,481,4.2,40,SP026,Spring,97566
+156,Clothing Product 156,Clothing,191.71,428,3,34,SP045,Summer,65641
+157,Sports Product 157,Sports,981.73,180,2.4,78,SP023,Fall,141369
+158,Books Product 158,Books,629.79,72,4.4,46,SP002,Spring,36275
+159,Home Decor Product 159,Home Decor,388.84,311,4.7,51,SP024,Winter,96743
+160,Beauty Product 160,Beauty,354.85,284,3.8,45,SP038,Spring,80621
+161,Sports Product 161,Sports,221.47,47,2.8,44,SP032,Winter,8327
+162,Electronics Product 162,Electronics,382.12,475,3.5,19,SP012,Summer,145205
+163,Furniture Product 163,Furniture,172.05,391,3.7,98,SP030,Winter,53817
+164,Home Appliances Product 164,Home Appliances,180.51,353,4.9,31,SP005,Spring,50976
+165,Electronics Product 165,Electronics,513.56,144,4.1,20,SP044,Spring,59162
+166,Automotive Product 166,Automotive,146.91,453,1.6,49,SP015,Spring,53240
+167,Garden Product 167,Garden,114.8,263,1.5,61,SP039,Winter,24153
+168,Furniture Product 168,Furniture,114.77,296,4.9,54,SP022,Spring,27177
+169,Home Appliances Product 169,Home Appliances,728.25,18,2.7,65,SP032,Fall,10486
+170,Sports Product 170,Sports,218.65,42,1.8,54,SP044,Fall,7346
+171,Toys Product 171,Toys,69.16,289,1.7,27,SP036,Summer,15989
+172,Electronics Product 172,Electronics,549.18,338,2.2,56,SP021,Fall,148498
+173,Kitchen Product 173,Kitchen,36.24,253,2.7,94,SP039,Spring,7334
+174,Home Appliances Product 174,Home Appliances,474.08,87,3.1,56,SP007,Fall,32995
+175,Electronics Product 175,Electronics,346.08,405,3.6,31,SP028,Spring,112129
+176,Automotive Product 176,Automotive,874.56,377,4,7,SP036,Spring,263767
+177,Garden Product 177,Garden,793.77,282,4.2,37,SP014,Summer,179074
+178,Home Appliances Product 178,Home Appliances,806.93,91,4.5,0,SP014,Fall,58744
+179,Books Product 179,Books,401.49,396,3.5,61,SP027,Fall,127192
+180,Automotive Product 180,Automotive,628.51,86,1.1,29,SP028,Fall,43241
+181,Clothing Product 181,Clothing,199.53,463,1.6,83,SP017,Summer,73905
+182,Electronics Product 182,Electronics,794.31,438,4.5,42,SP029,Spring,278326
+183,Beauty Product 183,Beauty,234.25,18,4.9,43,SP022,Summer,3373
+184,Kitchen Product 184,Kitchen,156.19,448,2.3,28,SP030,Winter,55978
+185,Home Decor Product 185,Home Decor,734.36,114,3.9,1,SP050,Summer,66973
+186,Electronics Product 186,Electronics,499.23,261,4.6,0,SP049,Summer,104239
+187,Garden Product 187,Garden,94.18,352,4.1,32,SP040,Winter,26521
+188,Automotive Product 188,Automotive,42.75,466,3.8,31,SP029,Spring,15937
+189,Kitchen Product 189,Kitchen,140.28,477,2.8,68,SP016,Summer,53530
+190,Home Appliances Product 190,Home Appliances,592.78,305,4.2,81,SP043,Summer,144638
+191,Garden Product 191,Garden,351.18,253,2.4,15,SP013,Fall,71078
+192,Toys Product 192,Toys,11.32,339,2.5,48,SP030,Spring,3069
+193,Automotive Product 193,Automotive,104.34,22,1.3,70,SP015,Spring,1836
+194,Kitchen Product 194,Kitchen,320.16,1,1.2,1,SP042,Winter,256
+195,Home Appliances Product 195,Home Appliances,773.94,28,3.7,97,SP041,Spring,17336
+196,Clothing Product 196,Clothing,64.97,131,4.4,59,SP038,Spring,6808
+197,Toys Product 197,Toys,153.53,358,2.3,59,SP044,Summer,43970
+198,Electronics Product 198,Electronics,967.1,423,2.6,26,SP040,Summer,327266
+199,Beauty Product 199,Beauty,625.58,458,2.6,70,SP005,Winter,229212
+200,Home Appliances Product 200,Home Appliances,387.46,230,4.7,82,SP011,Summer,71292
+201,Automotive Product 201,Automotive,832.45,327,2.8,24,SP043,Summer,217768
+202,Home Decor Product 202,Home Decor,521.79,349,1.3,7,SP007,Summer,145683
+203,Clothing Product 203,Clothing,441.87,322,1.2,49,SP037,Spring,113825
+204,Automotive Product 204,Automotive,613.44,307,1.7,61,SP001,Spring,150660
+205,Sports Product 205,Sports,86.32,5,2.9,48,SP027,Summer,345
+206,Garden Product 206,Garden,857.56,72,2.6,92,SP012,Winter,49395
+207,Books Product 207,Books,192.38,244,2.7,45,SP019,Winter,37552
+208,Home Appliances Product 208,Home Appliances,321.03,33,3.2,89,SP040,Spring,8475
+209,Clothing Product 209,Clothing,180.81,477,2.6,15,SP049,Fall,68997
+210,Sports Product 210,Sports,935.94,293,4.6,92,SP024,Summer,219384
+211,Electronics Product 211,Electronics,428.39,278,4.4,3,SP011,Winter,95273
+212,Books Product 212,Books,10.03,379,4.5,77,SP050,Winter,3041
+213,Electronics Product 213,Electronics,278.72,152,2.9,45,SP019,Spring,33892
+214,Books Product 214,Books,836,176,5,74,SP040,Summer,117708
+215,Furniture Product 215,Furniture,27.33,465,3.7,80,SP039,Summer,10166
+216,Automotive Product 216,Automotive,271.73,165,4.1,23,SP023,Fall,35868
+217,Toys Product 217,Toys,589.95,116,3.8,74,SP039,Spring,54747
+218,Kitchen Product 218,Kitchen,416.05,492,4.5,7,SP032,Fall,163757
+219,Electronics Product 219,Electronics,104.19,424,3.8,83,SP019,Spring,35341
+220,Furniture Product 220,Furniture,799.82,107,3.1,55,SP035,Summer,68464
+221,Furniture Product 221,Furniture,133.42,32,4.2,13,SP020,Spring,3415
+222,Garden Product 222,Garden,978.43,189,4.9,26,SP047,Spring,147938
+223,Beauty Product 223,Beauty,938.16,126,2.8,22,SP042,Spring,94566
+224,Beauty Product 224,Beauty,157.5,345,4.9,68,SP034,Fall,43470
+225,Electronics Product 225,Electronics,862.28,438,3,52,SP009,Fall,302142
+226,Beauty Product 226,Beauty,339.15,122,4.5,59,SP042,Fall,33101
+227,Sports Product 227,Sports,542.22,264,3.5,79,SP010,Fall,114516
+228,Toys Product 228,Toys,932.41,81,2.1,86,SP037,Fall,60420
+229,Furniture Product 229,Furniture,423.39,255,4.6,85,SP005,Fall,86371
+230,Electronics Product 230,Electronics,51.44,222,1.1,98,SP007,Spring,9135
+231,Garden Product 231,Garden,658.7,317,1.6,93,SP032,Fall,167046
+232,Toys Product 232,Toys,909.62,252,3.6,51,SP034,Winter,183379
+233,Toys Product 233,Toys,909.81,296,1.8,2,SP049,Summer,215443
+234,Automotive Product 234,Automotive,25.38,286,3.8,92,SP023,Spring,5806
+235,Toys Product 235,Toys,599.76,96,3.2,14,SP025,Winter,46061
+236,Home Appliances Product 236,Home Appliances,1001.79,11,3.2,66,SP021,Spring,8815
+237,Books Product 237,Books,905.11,325,2.6,15,SP034,Fall,235328
+238,Home Decor Product 238,Home Decor,363.61,425,1.7,76,SP026,Winter,123627
+239,Kitchen Product 239,Kitchen,15.07,357,2.7,79,SP045,Summer,4303
+240,Kitchen Product 240,Kitchen,165.72,408,2.6,53,SP043,Spring,54091
+241,Sports Product 241,Sports,541.53,350,3.7,12,SP006,Fall,151628
+242,Furniture Product 242,Furniture,749.85,433,5,24,SP048,Winter,259748
+243,Furniture Product 243,Furniture,499.65,139,1.4,76,SP002,Summer,55561
+244,Home Decor Product 244,Home Decor,281.17,295,2.1,85,SP034,Spring,66356
+245,Beauty Product 245,Beauty,315.31,97,4.7,2,SP040,Spring,24468
+246,Home Decor Product 246,Home Decor,92.42,415,4.5,67,SP026,Fall,30683
+247,Garden Product 247,Garden,63.54,179,1.2,89,SP024,Winter,9098
+248,Garden Product 248,Garden,672.73,41,4.5,60,SP032,Spring,22065
+249,Kitchen Product 249,Kitchen,395.26,127,4.2,18,SP035,Spring,40158
+250,Clothing Product 250,Clothing,710.29,390,3.9,88,SP024,Winter,221610
+251,Home Appliances Product 251,Home Appliances,199.49,123,4.5,51,SP025,Spring,19629
+252,Toys Product 252,Toys,48.79,101,4.8,47,SP049,Spring,3942
+253,Home Appliances Product 253,Home Appliances,983.65,457,3.3,29,SP029,Summer,359622
+254,Electronics Product 254,Electronics,842.07,481,2,89,SP018,Fall,324028
+255,Sports Product 255,Sports,634.41,302,4.9,10,SP021,Spring,153273
+256,Electronics Product 256,Electronics,740.62,1,2.2,87,SP049,Fall,592
+257,Books Product 257,Books,409.24,35,1.8,46,SP044,Spring,11458
+258,Electronics Product 258,Electronics,310.19,37,4.1,66,SP011,Spring,9181
+259,Beauty Product 259,Beauty,636.36,128,3.7,39,SP032,Winter,65163
+260,Electronics Product 260,Electronics,785.78,446,2.5,13,SP049,Spring,280366
+261,Kitchen Product 261,Kitchen,296.71,361,2.7,16,SP013,Fall,85689
+262,Electronics Product 262,Electronics,10.18,202,2.3,9,SP011,Winter,1645
+263,Garden Product 263,Garden,350.72,85,2.4,96,SP040,Fall,23848
+264,Kitchen Product 264,Kitchen,427.3,287,4.9,66,SP012,Fall,98108
+265,Home Appliances Product 265,Home Appliances,655.74,239,2.6,33,SP025,Fall,125377
+266,Electronics Product 266,Electronics,366.86,426,2.8,40,SP020,Spring,125025
+267,Furniture Product 267,Furniture,706.28,73,3.2,35,SP039,Winter,41246
+268,Clothing Product 268,Clothing,458.21,126,1.9,77,SP007,Summer,46187
+269,Kitchen Product 269,Kitchen,214.31,192,3.1,70,SP027,Spring,32918
+270,Beauty Product 270,Beauty,982.5,188,4.2,23,SP003,Spring,147768
+271,Home Decor Product 271,Home Decor,663.69,22,3.6,6,SP001,Spring,11680
+272,Toys Product 272,Toys,93.34,190,1.1,84,SP005,Spring,14187
+273,Books Product 273,Books,373.5,266,4.8,72,SP029,Winter,79480
+274,Sports Product 274,Sports,439.75,154,1.6,66,SP016,Fall,54177
+275,Electronics Product 275,Electronics,604,264,1.7,24,SP025,Spring,127564
+276,Kitchen Product 276,Kitchen,506.53,406,1.7,68,SP016,Fall,164520
+277,Furniture Product 277,Furniture,454.24,395,1.8,75,SP044,Summer,143539
+278,Kitchen Product 278,Kitchen,530.97,167,1.7,81,SP034,Winter,70937
+279,Kitchen Product 279,Kitchen,451.39,395,3.3,5,SP026,Fall,142639
+280,Home Appliances Product 280,Home Appliances,635.03,129,4.4,52,SP006,Spring,65535
+281,Beauty Product 281,Beauty,910.33,453,3.8,79,SP037,Summer,329903
+282,Sports Product 282,Sports,643.56,144,1.1,37,SP001,Fall,74138
+283,Home Decor Product 283,Home Decor,263.37,247,1.7,15,SP046,Winter,52041
+284,Furniture Product 284,Furniture,360.11,7,1.4,51,SP032,Winter,2016
+285,Toys Product 285,Toys,515.2,317,2.5,95,SP016,Winter,130654
+286,Home Appliances Product 286,Home Appliances,905.83,43,4.5,43,SP002,Fall,31160
+287,Home Decor Product 287,Home Decor,90.85,329,2.3,27,SP002,Winter,23911
+288,Books Product 288,Books,812.55,103,4.5,18,SP008,Summer,66954
+289,Garden Product 289,Garden,243.24,109,2.7,16,SP041,Spring,21210
+290,Furniture Product 290,Furniture,693.59,25,3.3,7,SP037,Spring,13871
+291,Toys Product 291,Toys,413.46,235,3.9,5,SP033,Winter,77730
+292,Furniture Product 292,Furniture,747.85,153,3.7,46,SP046,Winter,91536
+293,Home Decor Product 293,Home Decor,387.72,416,3.3,55,SP005,Spring,129033
+294,Sports Product 294,Sports,495.87,76,1.6,52,SP002,Winter,30148
+295,Furniture Product 295,Furniture,303.1,282,3,97,SP007,Winter,68379
+296,Home Decor Product 296,Home Decor,953.33,302,4.7,21,SP019,Winter,230324
+297,Kitchen Product 297,Kitchen,120.27,105,3.7,81,SP048,Spring,10102
+298,Clothing Product 298,Clothing,266.75,322,1.3,16,SP005,Summer,68714
+299,Beauty Product 299,Beauty,717.65,109,2.2,57,SP014,Fall,62579
+300,Furniture Product 300,Furniture,256.13,445,3.5,23,SP039,Winter,91182
+301,Sports Product 301,Sports,797.3,171,1.6,77,SP037,Fall,109070
+302,Beauty Product 302,Beauty,674.02,67,3.9,61,SP006,Fall,36127
+303,Kitchen Product 303,Kitchen,552.1,141,2.6,95,SP047,Spring,62276
+304,Home Appliances Product 304,Home Appliances,617.29,137,3,1,SP011,Spring,67654
+305,Books Product 305,Books,766.1,214,2.5,6,SP002,Summer,131156
+306,Home Appliances Product 306,Home Appliances,383.96,439,3,62,SP044,Summer,134846
+307,Toys Product 307,Toys,327.48,207,4.6,39,SP022,Spring,54230
+308,Garden Product 308,Garden,960.41,102,4.8,10,SP001,Spring,78369
+309,Home Decor Product 309,Home Decor,883.19,411,1.2,47,SP050,Spring,290392
+310,Beauty Product 310,Beauty,51.03,451,1.9,74,SP032,Fall,18411
+311,Garden Product 311,Garden,660.84,402,1.5,77,SP023,Spring,212526
+312,Beauty Product 312,Beauty,825.14,446,4.6,47,SP033,Spring,294409
+313,Electronics Product 313,Electronics,349.73,70,2.2,69,SP012,Spring,19584
+314,Kitchen Product 314,Kitchen,927.98,222,4.9,97,SP022,Fall,164809
+315,Clothing Product 315,Clothing,709.01,177,3.8,4,SP030,Spring,100395
+316,Clothing Product 316,Clothing,58.66,200,3.4,51,SP028,Fall,9385
+317,Garden Product 317,Garden,110.8,16,3.5,66,SP021,Fall,1418
+318,Toys Product 318,Toys,20.5,413,3,23,SP022,Winter,6773
+319,Furniture Product 319,Furniture,952.66,62,2.1,10,SP015,Winter,47251
+320,Beauty Product 320,Beauty,668.58,353,3.5,88,SP045,Winter,188806
+321,Clothing Product 321,Clothing,670.91,200,1.8,16,SP050,Summer,107345
+322,Beauty Product 322,Beauty,303.78,426,1.8,40,SP008,Spring,103528
+323,Garden Product 323,Garden,849.57,270,2.1,45,SP031,Winter,183507
+324,Kitchen Product 324,Kitchen,60.23,269,1.1,20,SP006,Summer,12961
+325,Books Product 325,Books,721.77,106,3.8,83,SP027,Spring,61206
+326,Toys Product 326,Toys,461.53,268,2.3,47,SP004,Winter,98952
+327,Toys Product 327,Toys,637.7,264,1.5,55,SP045,Fall,134682
+328,Automotive Product 328,Automotive,836.67,337,4.3,96,SP014,Spring,225566
+329,Kitchen Product 329,Kitchen,32.28,260,1.2,30,SP024,Fall,6714
+330,Clothing Product 330,Clothing,412.69,175,4.7,22,SP043,Summer,57776
+331,Garden Product 331,Garden,583.64,114,1.4,13,SP022,Summer,53227
+332,Kitchen Product 332,Kitchen,541.88,138,2.9,23,SP002,Spring,59823
+333,Books Product 333,Books,519.3,166,3.2,93,SP041,Winter,68963
+334,Kitchen Product 334,Kitchen,1007.23,372,2.6,13,SP006,Spring,299751
+335,Garden Product 335,Garden,718.97,275,1.8,51,SP045,Summer,158173
+336,Home Decor Product 336,Home Decor,343.4,153,1,24,SP040,Spring,42032
+337,Sports Product 337,Sports,202.8,419,1.9,85,SP045,Summer,67978
+338,Home Appliances Product 338,Home Appliances,621.12,353,1.6,42,SP008,Winter,175404
+339,Home Decor Product 339,Home Decor,736.73,499,4.3,10,SP029,Fall,294102
+340,Books Product 340,Books,257.38,14,3.3,68,SP022,Fall,2882
+341,Toys Product 341,Toys,340.19,96,4.2,32,SP018,Spring,26126
+342,Clothing Product 342,Clothing,872.22,163,4.3,43,SP038,Fall,113737
+343,Automotive Product 343,Automotive,354.27,348,1.9,42,SP043,Summer,98628
+344,Home Decor Product 344,Home Decor,594.92,449,2.1,27,SP010,Summer,213695
+345,Electronics Product 345,Electronics,181.24,455,1.8,85,SP018,Summer,65971
+346,Toys Product 346,Toys,988.72,13,4.1,3,SP031,Winter,10282
+347,Electronics Product 347,Electronics,654.15,270,3.8,63,SP032,Summer,141296
+348,Kitchen Product 348,Kitchen,676.44,428,2.8,0,SP046,Fall,231613
+349,Automotive Product 349,Automotive,478.32,408,1.1,60,SP031,Spring,156123
+350,Toys Product 350,Toys,429.64,330,3.8,93,SP022,Winter,113424
+351,Automotive Product 351,Automotive,834.77,197,4.6,9,SP029,Winter,131559
+352,Electronics Product 352,Electronics,778.07,170,3.2,17,SP019,Summer,105817
+353,Beauty Product 353,Beauty,369.62,35,2.8,17,SP019,Fall,10349
+354,Kitchen Product 354,Kitchen,978.41,342,4.7,38,SP031,Spring,267692
+355,Toys Product 355,Toys,500.02,85,2,43,SP024,Fall,34001
+356,Furniture Product 356,Furniture,350.6,71,1.7,6,SP025,Winter,19914
+357,Home Appliances Product 357,Home Appliances,717.75,426,4,74,SP030,Winter,244609
+358,Garden Product 358,Garden,387.1,259,4.7,80,SP034,Spring,80207
+359,Home Appliances Product 359,Home Appliances,838.46,284,2.4,47,SP013,Spring,190498
+360,Home Decor Product 360,Home Decor,844.63,37,4.8,37,SP041,Winter,25001
+361,Home Appliances Product 361,Home Appliances,574.23,208,4.6,93,SP046,Spring,95551
+362,Books Product 362,Books,279.69,354,4.8,34,SP033,Summer,79208
+363,Toys Product 363,Toys,462.88,166,4,55,SP005,Winter,61470
+364,Furniture Product 364,Furniture,467.17,471,3.3,12,SP024,Winter,176029
+365,Beauty Product 365,Beauty,630.95,208,4.3,31,SP044,Spring,104990
+366,Kitchen Product 366,Kitchen,373.58,10,2.6,59,SP039,Winter,2988
+367,Clothing Product 367,Clothing,91.3,252,3.2,34,SP039,Spring,18406
+368,Clothing Product 368,Clothing,47.84,188,2.5,16,SP040,Spring,7195
+369,Clothing Product 369,Clothing,266.82,376,1.7,49,SP040,Fall,80259
+370,Garden Product 370,Garden,669.09,183,2.7,44,SP016,Summer,97954
+371,Books Product 371,Books,762.78,324,1.2,15,SP038,Fall,197712
+372,Automotive Product 372,Automotive,335.61,377,3.5,58,SP038,Spring,101219
+373,Toys Product 373,Toys,508.07,471,3.4,27,SP050,Winter,191440
+374,Electronics Product 374,Electronics,332.38,60,2.6,79,SP034,Summer,15954
+375,Sports Product 375,Sports,138.4,416,4.5,85,SP018,Spring,46059
+376,Furniture Product 376,Furniture,350.96,232,2.5,51,SP026,Spring,65138
+377,Books Product 377,Books,520.56,342,2.2,34,SP018,Winter,142425
+378,Automotive Product 378,Automotive,102.5,426,1.6,40,SP027,Winter,34932
+379,Beauty Product 379,Beauty,855.05,219,3.3,60,SP006,Spring,149804
+380,Home Appliances Product 380,Home Appliances,1003.57,120,3.3,37,SP025,Spring,96342
+381,Sports Product 381,Sports,66.76,445,3.2,26,SP018,Fall,23766
+382,Books Product 382,Books,542.06,203,3.2,48,SP037,Summer,88030
+383,Electronics Product 383,Electronics,808.48,253,3.1,33,SP040,Spring,163636
+384,Books Product 384,Books,282.7,15,3.8,55,SP004,Fall,3392
+385,Electronics Product 385,Electronics,571.82,375,3.9,75,SP035,Summer,171546
+386,Sports Product 386,Sports,694.64,177,4.3,34,SP017,Fall,98361
+387,Beauty Product 387,Beauty,604.9,267,4.8,23,SP011,Summer,129206
+388,Clothing Product 388,Clothing,657.36,230,1.4,48,SP030,Spring,120954
+389,Automotive Product 389,Automotive,159.74,95,1.7,34,SP027,Winter,12140
+390,Furniture Product 390,Furniture,146.82,267,3.9,78,SP040,Spring,31360
+391,Kitchen Product 391,Kitchen,305.35,23,1.6,82,SP021,Summer,5618
+392,Sports Product 392,Sports,836.48,249,4.8,97,SP048,Spring,166626
+393,Automotive Product 393,Automotive,347.92,102,4,4,SP003,Winter,28390
+394,Books Product 394,Books,393.22,14,2.5,91,SP006,Summer,4404
+395,Beauty Product 395,Beauty,78.33,227,2.9,7,SP014,Fall,14224
+396,Furniture Product 396,Furniture,56.57,325,4.2,84,SP035,Fall,14708
+397,Books Product 397,Books,646.41,282,2,55,SP049,Spring,145830
+398,Garden Product 398,Garden,108.85,143,4.4,58,SP028,Fall,12452
+399,Automotive Product 399,Automotive,552.41,53,2.6,34,SP049,Winter,23422
+400,Automotive Product 400,Automotive,477.92,306,4.6,71,SP023,Fall,116994
+401,Books Product 401,Books,217.37,393,1.5,78,SP029,Winter,68341
+402,Furniture Product 402,Furniture,386.76,23,3.7,30,SP024,Spring,7116
+403,Beauty Product 403,Beauty,660.25,448,1.7,13,SP049,Winter,236633
+404,Sports Product 404,Sports,245.14,263,2,20,SP008,Fall,51577
+405,Toys Product 405,Toys,204.75,440,3.9,74,SP009,Spring,72072
+406,Electronics Product 406,Electronics,862.66,263,3.1,45,SP002,Winter,181503
+407,Sports Product 407,Sports,790.71,264,1.2,58,SP007,Winter,166997
+408,Home Decor Product 408,Home Decor,988.29,426,3.9,37,SP042,Summer,336809
+409,Home Decor Product 409,Home Decor,775.75,201,3.7,31,SP028,Spring,124740
+410,Home Appliances Product 410,Home Appliances,185.25,195,2.3,65,SP022,Summer,28899
+411,Toys Product 411,Toys,935.33,124,3.6,82,SP041,Summer,92784
+412,Clothing Product 412,Clothing,65.13,309,3.7,26,SP021,Summer,16100
+413,Garden Product 413,Garden,922.18,338,1.9,85,SP027,Summer,249357
+414,Garden Product 414,Garden,946.75,313,1.5,14,SP024,Fall,237066
+415,Clothing Product 415,Clothing,857.64,153,3.4,99,SP034,Spring,104975
+416,Toys Product 416,Toys,739.6,158,2.9,91,SP002,Spring,93485
+417,Books Product 417,Books,802.89,95,2.4,58,SP039,Fall,61019
+418,Beauty Product 418,Beauty,634.94,369,1.2,86,SP016,Summer,187434
+419,Clothing Product 419,Clothing,177.89,334,3.1,94,SP026,Spring,47532
+420,Books Product 420,Books,700.26,336,1,89,SP020,Fall,188229
+421,Electronics Product 421,Electronics,51.47,156,3.5,20,SP018,Fall,6423
+422,Toys Product 422,Toys,41.98,24,5,99,SP010,Fall,806
+423,Garden Product 423,Garden,979.54,84,4.7,62,SP025,Spring,65825
+424,Electronics Product 424,Electronics,536.33,444,3.3,59,SP005,Summer,190504
+425,Electronics Product 425,Electronics,426.63,76,2.2,15,SP003,Summer,25939
+426,Kitchen Product 426,Kitchen,767.9,386,2,88,SP028,Spring,237127
+427,Furniture Product 427,Furniture,257.73,144,3.4,60,SP014,Summer,29690
+428,Beauty Product 428,Beauty,405.34,387,1.1,30,SP047,Spring,125493
+429,Electronics Product 429,Electronics,593.86,61,1.7,93,SP034,Summer,28980
+430,Automotive Product 430,Automotive,162.92,360,2.2,19,SP021,Winter,46920
+431,Garden Product 431,Garden,283.25,10,5,60,SP039,Fall,2266
+432,Home Appliances Product 432,Home Appliances,390.41,205,3.9,56,SP034,Fall,64027
+433,Clothing Product 433,Clothing,87.17,430,3.7,22,SP024,Summer,29986
+434,Automotive Product 434,Automotive,823.98,304,3.6,69,SP032,Summer,200391
+435,Automotive Product 435,Automotive,126.16,251,4.6,69,SP021,Fall,25332
+436,Furniture Product 436,Furniture,240.74,335,4.8,89,SP006,Summer,64518
+437,Sports Product 437,Sports,237.37,394,3.6,62,SP037,Summer,74819
+438,Clothing Product 438,Clothing,670.37,207,2.7,38,SP022,Spring,111013
+439,Garden Product 439,Garden,794.82,460,2,65,SP023,Summer,292493
+440,Home Appliances Product 440,Home Appliances,188.16,497,3.3,94,SP031,Summer,74812
+441,Home Appliances Product 441,Home Appliances,205.85,75,2.3,44,SP027,Spring,12351
+442,Sports Product 442,Sports,177.91,141,4.6,8,SP002,Spring,20068
+443,Home Decor Product 443,Home Decor,447.35,46,3.8,23,SP007,Winter,16462
+444,Toys Product 444,Toys,978.14,31,1.2,0,SP045,Summer,24257
+445,Garden Product 445,Garden,412.16,154,4.5,5,SP010,Fall,50778
+446,Kitchen Product 446,Kitchen,468.96,268,3.6,78,SP008,Fall,100545
+447,Clothing Product 447,Clothing,240.53,229,4.4,48,SP027,Spring,44065
+448,Beauty Product 448,Beauty,120.43,498,3.1,95,SP026,Summer,47979
+449,Sports Product 449,Sports,238.08,69,2.3,90,SP015,Spring,13142
+450,Toys Product 450,Toys,282.6,360,1.8,36,SP014,Fall,81388
+451,Sports Product 451,Sports,358.77,296,3.6,98,SP023,Summer,84956
+452,Home Appliances Product 452,Home Appliances,478.52,188,1.7,61,SP002,Fall,71969
+453,Home Decor Product 453,Home Decor,104.3,398,4.3,27,SP035,Winter,33209
+454,Home Decor Product 454,Home Decor,269.21,316,1.4,41,SP001,Summer,68056
+455,Furniture Product 455,Furniture,772.67,404,3.3,54,SP025,Summer,249726
+456,Toys Product 456,Toys,619.84,471,3.7,15,SP029,Summer,233555
+457,Books Product 457,Books,228.83,339,3.5,32,SP031,Winter,62058
+458,Electronics Product 458,Electronics,194.91,115,3.3,67,SP035,Fall,17931
+459,Home Appliances Product 459,Home Appliances,247.16,421,3.8,92,SP035,Winter,83243
+460,Furniture Product 460,Furniture,728.66,37,3.7,91,SP049,Summer,21568
+461,Automotive Product 461,Automotive,559.39,466,3.8,75,SP013,Summer,208540
+462,Garden Product 462,Garden,539.76,420,3.7,72,SP003,Winter,181359
+463,Beauty Product 463,Beauty,482.17,141,1.6,80,SP013,Fall,54388
+464,Home Decor Product 464,Home Decor,222.94,148,3.2,3,SP020,Spring,26396
+465,Clothing Product 465,Clothing,261.82,145,3.4,63,SP050,Winter,30371
+466,Toys Product 466,Toys,551.13,186,3,44,SP019,Spring,82008
+467,Home Decor Product 467,Home Decor,926.4,42,4.8,85,SP006,Fall,31127
+468,Furniture Product 468,Furniture,240.64,88,3.1,14,SP046,Fall,16941
+469,Clothing Product 469,Clothing,886.36,93,1.6,90,SP003,Spring,65945
+470,Automotive Product 470,Automotive,73.37,389,3.8,37,SP050,Fall,22832
+471,Garden Product 471,Garden,678.01,3,3.7,62,SP004,Fall,1627
+472,Home Decor Product 472,Home Decor,353.54,203,2.1,94,SP026,Summer,57414
+473,Kitchen Product 473,Kitchen,46.44,483,5,5,SP006,Spring,17944
+474,Garden Product 474,Garden,795.79,395,2.4,6,SP032,Spring,251469
+475,Home Decor Product 475,Home Decor,861.8,460,2.1,71,SP041,Summer,317142
+476,Kitchen Product 476,Kitchen,646.07,244,1.4,20,SP046,Summer,126112
+477,Kitchen Product 477,Kitchen,306.45,101,1.1,18,SP033,Fall,24761
+478,Kitchen Product 478,Kitchen,126.7,274,4.9,96,SP038,Winter,27772
+479,Sports Product 479,Sports,764.9,124,4.1,22,SP032,Summer,75878
+480,Automotive Product 480,Automotive,757.05,470,3.2,45,SP031,Spring,284650
+481,Toys Product 481,Toys,974.43,183,1.5,41,SP018,Summer,142656
+482,Toys Product 482,Toys,156.48,324,1,69,SP006,Fall,40559
+483,Books Product 483,Books,571.4,6,2.7,61,SP032,Summer,2742
+484,Books Product 484,Books,269.03,209,3.7,86,SP005,Fall,44981
+485,Kitchen Product 485,Kitchen,684.77,236,4.5,60,SP037,Summer,129284
+486,Clothing Product 486,Clothing,331.87,96,4.5,10,SP016,Fall,25487
+487,Clothing Product 487,Clothing,735.83,349,4.7,95,SP048,Fall,205443
+488,Kitchen Product 488,Kitchen,776.72,38,4.8,88,SP011,Fall,23612
+489,Kitchen Product 489,Kitchen,19.71,142,2.1,72,SP025,Winter,2239
+490,Automotive Product 490,Automotive,522.81,274,1.2,71,SP019,Spring,114599
+491,Home Appliances Product 491,Home Appliances,834.91,106,3.1,89,SP021,Winter,70800
+492,Garden Product 492,Garden,579.01,422,2,15,SP008,Winter,195473
+493,Home Decor Product 493,Home Decor,637.5,336,3.9,37,SP016,Winter,171360
+494,Sports Product 494,Sports,454.02,148,2.3,57,SP019,Winter,53755
+495,Home Appliances Product 495,Home Appliances,307.36,381,3.4,97,SP015,Fall,93683
+496,Kitchen Product 496,Kitchen,423.92,166,3.4,76,SP006,Fall,56296
+497,Kitchen Product 497,Kitchen,814.8,222,4.1,22,SP032,Winter,144708
+498,Home Decor Product 498,Home Decor,474.46,45,4.6,90,SP037,Summer,17080
+499,Kitchen Product 499,Kitchen,677.03,271,2.8,79,SP048,Fall,146780
+500,Beauty Product 500,Beauty,94.2,48,2.7,15,SP004,Winter,3617
+501,Garden Product 501,Garden,654.48,230,1.3,21,SP013,Fall,120424
+502,Beauty Product 502,Beauty,723.04,81,4.2,1,SP044,Summer,46852
+503,Home Appliances Product 503,Home Appliances,139.31,248,3.3,91,SP036,Summer,27639
+504,Books Product 504,Books,869.66,1,3.4,29,SP017,Winter,695
+505,Home Decor Product 505,Home Decor,619.37,428,1.8,65,SP049,Fall,212072
+506,Home Appliances Product 506,Home Appliances,60.16,169,4.4,20,SP038,Spring,8133
+507,Sports Product 507,Sports,817.97,20,1.9,58,SP036,Fall,13087
+508,Home Decor Product 508,Home Decor,73.03,444,2,28,SP007,Winter,25940
+509,Books Product 509,Books,333.67,239,2.4,49,SP001,Fall,63797
+510,Books Product 510,Books,198.8,29,1.3,64,SP020,Fall,4612
+511,Clothing Product 511,Clothing,984.81,393,4.2,22,SP025,Fall,309624
+512,Sports Product 512,Sports,853.95,318,1.8,73,SP020,Winter,217244
+513,Furniture Product 513,Furniture,552.49,496,4.7,84,SP048,Summer,219228
+514,Furniture Product 514,Furniture,108.47,377,2.1,76,SP031,Fall,32714
+515,Electronics Product 515,Electronics,891.18,446,3.7,62,SP038,Fall,317973
+516,Home Appliances Product 516,Home Appliances,975.27,470,4.7,89,SP032,Spring,366701
+517,Automotive Product 517,Automotive,935.15,287,4.8,69,SP018,Spring,214710
+518,Home Decor Product 518,Home Decor,879.85,108,2.3,74,SP009,Summer,76019
+519,Furniture Product 519,Furniture,983.78,486,3.4,35,SP039,Spring,382493
+520,Books Product 520,Books,675.51,262,5,5,SP024,Summer,141586
+521,Electronics Product 521,Electronics,221.31,253,3.6,14,SP032,Spring,44793
+522,Electronics Product 522,Electronics,955.03,69,2.7,86,SP034,Summer,52717
+523,Home Appliances Product 523,Home Appliances,790.78,60,3.9,12,SP038,Fall,37957
+524,Beauty Product 524,Beauty,93.95,198,1,41,SP023,Summer,14881
+525,Electronics Product 525,Electronics,492.58,264,4.1,40,SP003,Spring,104032
+526,Sports Product 526,Sports,689.29,45,1.9,1,SP023,Fall,24814
+527,Automotive Product 527,Automotive,742.13,163,2.8,72,SP049,Fall,96773
+528,Books Product 528,Books,276.32,275,3.2,45,SP035,Fall,60790
+529,Garden Product 529,Garden,208.97,315,4.2,93,SP003,Summer,52660
+530,Books Product 530,Books,686.44,196,4.5,97,SP017,Fall,107633
+531,Beauty Product 531,Beauty,494.91,278,3.8,83,SP006,Summer,110067
+532,Toys Product 532,Toys,991.06,280,1.1,45,SP009,Spring,221997
+533,Electronics Product 533,Electronics,418.58,205,1.2,67,SP050,Fall,68647
+534,Clothing Product 534,Clothing,835.14,443,1.7,67,SP007,Winter,295973
+535,Electronics Product 535,Electronics,47.68,1,3.7,33,SP044,Winter,38
+536,Home Decor Product 536,Home Decor,585.21,0,3.5,82,SP026,Summer,0
+537,Sports Product 537,Sports,213.04,1,4.7,93,SP038,Summer,170
+538,Beauty Product 538,Beauty,13.96,471,4.6,58,SP009,Fall,5260
+539,Home Appliances Product 539,Home Appliances,564.91,32,2.4,18,SP023,Winter,14461
+540,Electronics Product 540,Electronics,870.49,17,2.7,29,SP036,Fall,11838
+541,Electronics Product 541,Electronics,470.72,498,2.4,89,SP019,Spring,187534
+542,Furniture Product 542,Furniture,408.42,75,3.6,0,SP010,Winter,24505
+543,Toys Product 543,Toys,60.87,196,4.3,83,SP047,Fall,9544
+544,Electronics Product 544,Electronics,443.63,115,4.1,57,SP006,Summer,40813
+545,Home Appliances Product 545,Home Appliances,148.71,55,3.4,69,SP049,Winter,6543
+546,Clothing Product 546,Clothing,617.87,326,1.8,1,SP003,Summer,161140
+547,Beauty Product 547,Beauty,101.49,10,3.5,51,SP033,Spring,811
+548,Sports Product 548,Sports,517.29,121,2,68,SP029,Winter,50073
+549,Automotive Product 549,Automotive,823.14,341,4.8,35,SP034,Spring,224552
+550,Clothing Product 550,Clothing,826.47,197,1.7,47,SP041,Winter,130251
+551,Garden Product 551,Garden,117.08,385,2.6,97,SP043,Winter,36060
+552,Sports Product 552,Sports,921.96,316,4.5,66,SP009,Summer,233071
+553,Home Decor Product 553,Home Decor,661.37,318,4,43,SP019,Summer,168252
+554,Beauty Product 554,Beauty,500.37,339,2.9,54,SP050,Spring,135700
+555,Electronics Product 555,Electronics,999.42,325,1.4,89,SP046,Summer,259849
+556,Home Decor Product 556,Home Decor,774.55,367,1.4,77,SP009,Fall,227407
+557,Garden Product 557,Garden,242.72,296,3,37,SP034,Summer,57476
+558,Sports Product 558,Sports,427.75,464,2.9,87,SP040,Winter,158780
+559,Beauty Product 559,Beauty,567.52,180,4.9,66,SP039,Fall,81722
+560,Clothing Product 560,Clothing,556.13,94,1.6,55,SP019,Fall,41820
+561,Home Appliances Product 561,Home Appliances,456.8,467,3.4,13,SP049,Spring,170660
+562,Home Appliances Product 562,Home Appliances,599.35,429,3.9,29,SP046,Spring,205696
+563,Home Appliances Product 563,Home Appliances,653.78,347,4.9,83,SP012,Winter,181489
+564,Automotive Product 564,Automotive,961.3,81,4.3,92,SP022,Winter,62292
+565,Sports Product 565,Sports,841.8,435,3.6,1,SP013,Winter,292946
+566,Toys Product 566,Toys,469.72,489,2,11,SP020,Fall,183754
+567,Furniture Product 567,Furniture,909.46,41,2.2,42,SP016,Summer,29830
+568,Clothing Product 568,Clothing,735.72,248,1,32,SP042,Summer,145966
+569,Home Appliances Product 569,Home Appliances,244.97,367,1.2,5,SP047,Winter,71923
+570,Kitchen Product 570,Kitchen,422.03,333,2.6,17,SP014,Summer,112428
+571,Automotive Product 571,Automotive,885.51,164,2.4,27,SP004,Fall,116178
+572,Toys Product 572,Toys,405.03,494,2.4,91,SP031,Fall,160067
+573,Toys Product 573,Toys,169.83,371,2.6,73,SP008,Summer,50405
+574,Sports Product 574,Sports,576.67,282,4.9,43,SP050,Winter,130096
+575,Garden Product 575,Garden,260.49,395,1.5,64,SP003,Summer,82314
+576,Home Appliances Product 576,Home Appliances,561.5,155,3,26,SP042,Spring,69626
+577,Electronics Product 577,Electronics,996.94,262,4.1,43,SP023,Fall,208958
+578,Electronics Product 578,Electronics,486.62,405,3.7,17,SP028,Winter,157664
+579,Automotive Product 579,Automotive,650.54,390,4.1,72,SP026,Winter,202968
+580,Beauty Product 580,Beauty,997.89,393,4.2,19,SP018,Winter,313736
+581,Sports Product 581,Sports,312.12,431,3.1,33,SP042,Fall,107618
+582,Garden Product 582,Garden,693.8,422,3.6,98,SP003,Winter,234226
+583,Clothing Product 583,Clothing,960.24,497,3.6,91,SP049,Fall,381791
+584,Home Appliances Product 584,Home Appliances,783.25,419,1.6,24,SP035,Summer,262545
+585,Furniture Product 585,Furniture,962.23,310,4.9,78,SP022,Winter,238633
+586,Furniture Product 586,Furniture,228.84,488,2.6,97,SP031,Fall,89339
+587,Furniture Product 587,Furniture,84.54,456,3.4,4,SP050,Spring,30840
+588,Books Product 588,Books,797.89,213,4.6,36,SP031,Summer,135960
+589,Home Appliances Product 589,Home Appliances,680.81,226,1,10,SP019,Fall,123090
+590,Beauty Product 590,Beauty,20.97,236,3.4,4,SP012,Winter,3959
+591,Automotive Product 591,Automotive,642.88,359,1.1,49,SP035,Winter,184635
+592,Beauty Product 592,Beauty,361.86,47,3.7,12,SP020,Spring,13605
+593,Beauty Product 593,Beauty,764.33,491,2.5,53,SP024,Winter,300228
+594,Home Decor Product 594,Home Decor,509.96,217,4.9,43,SP050,Fall,88529
+595,Furniture Product 595,Furniture,641.64,168,2.2,28,SP038,Winter,86236
+596,Home Decor Product 596,Home Decor,339.07,174,4.4,6,SP002,Fall,47198
+597,Books Product 597,Books,717.99,330,1.8,20,SP044,Spring,189549
+598,Home Appliances Product 598,Home Appliances,603.98,120,2.3,6,SP014,Winter,57982
+599,Automotive Product 599,Automotive,504.6,356,2.7,12,SP008,Spring,143710
+600,Books Product 600,Books,856.92,240,3,4,SP002,Summer,164528
+601,Home Appliances Product 601,Home Appliances,520.81,343,2,44,SP020,Winter,142910
+602,Automotive Product 602,Automotive,245.35,447,2.5,78,SP017,Fall,87737
+603,Automotive Product 603,Automotive,484.67,322,4.7,89,SP001,Fall,124850
+604,Kitchen Product 604,Kitchen,830.14,43,1.6,90,SP040,Winter,28556
+605,Home Decor Product 605,Home Decor,56.01,246,2.2,22,SP020,Winter,11022
+606,Home Decor Product 606,Home Decor,526.59,135,1.6,54,SP003,Summer,56871
+607,Kitchen Product 607,Kitchen,957.24,485,2.6,73,SP027,Winter,371409
+608,Electronics Product 608,Electronics,568.96,439,2.6,33,SP031,Winter,199818
+609,Kitchen Product 609,Kitchen,486.51,361,1.3,1,SP013,Winter,140504
+610,Automotive Product 610,Automotive,606.47,396,1.2,36,SP015,Winter,192129
+611,Home Decor Product 611,Home Decor,642.82,112,1.8,94,SP017,Fall,57596
+612,Home Decor Product 612,Home Decor,977.26,474,1.2,25,SP046,Fall,370576
+613,Clothing Product 613,Clothing,674.5,460,2.4,25,SP043,Spring,248216
+614,Furniture Product 614,Furniture,801.62,469,2.7,77,SP049,Fall,300767
+615,Beauty Product 615,Beauty,882.17,107,1.2,1,SP023,Winter,75513
+616,Garden Product 616,Garden,434.65,293,2.4,79,SP033,Summer,101881
+617,Sports Product 617,Sports,1001.93,405,3.4,59,SP013,Fall,324625
+618,Sports Product 618,Sports,846.48,331,1.9,67,SP003,Winter,224147
+619,Kitchen Product 619,Kitchen,164.28,402,3.2,15,SP039,Winter,52832
+620,Electronics Product 620,Electronics,247.71,268,1.5,59,SP040,Summer,53109
+621,Home Decor Product 621,Home Decor,138.91,303,1.1,37,SP038,Summer,33671
+622,Books Product 622,Books,697.95,111,4.3,71,SP048,Spring,61977
+623,Home Decor Product 623,Home Decor,1003.14,54,1.9,31,SP050,Summer,43335
+624,Toys Product 624,Toys,126.47,439,3.7,9,SP017,Winter,44416
+625,Books Product 625,Books,895.57,466,4.9,5,SP028,Winter,333868
+626,Beauty Product 626,Beauty,506.3,327,3.5,10,SP002,Summer,132448
+627,Beauty Product 627,Beauty,916.21,439,1.5,46,SP029,Winter,321772
+628,Toys Product 628,Toys,633.6,167,3.3,37,SP003,Summer,84648
+629,Home Appliances Product 629,Home Appliances,358.28,313,4.1,32,SP040,Spring,89713
+630,Books Product 630,Books,756.41,235,3.2,49,SP001,Winter,142205
+631,Toys Product 631,Toys,744.99,184,1,66,SP022,Winter,109662
+632,Sports Product 632,Sports,946.34,359,2.8,26,SP042,Fall,271788
+633,Automotive Product 633,Automotive,749.63,211,4,32,SP033,Summer,126537
+634,Clothing Product 634,Clothing,655.03,80,4.4,32,SP049,Spring,41921
+635,Toys Product 635,Toys,417.96,489,2,12,SP035,Fall,163505
+636,Automotive Product 636,Automotive,195.28,400,4.4,51,SP018,Fall,62489
+637,Beauty Product 637,Beauty,501.83,296,1.3,55,SP014,Fall,118833
+638,Books Product 638,Books,497.43,177,2,77,SP011,Spring,70436
+639,Clothing Product 639,Clothing,599.91,263,3.1,59,SP040,Fall,126221
+640,Electronics Product 640,Electronics,698.82,465,1.2,58,SP006,Fall,259961
+641,Kitchen Product 641,Kitchen,284.12,414,1,7,SP046,Spring,94100
+642,Toys Product 642,Toys,92.22,480,1.7,31,SP041,Spring,35412
+643,Sports Product 643,Sports,438.42,320,1.9,78,SP009,Winter,112235
+644,Home Decor Product 644,Home Decor,457.67,87,3.8,55,SP020,Spring,31853
+645,Toys Product 645,Toys,784.91,227,4.3,66,SP039,Winter,142539
+646,Toys Product 646,Toys,696.93,392,1.7,60,SP022,Spring,218557
+647,Toys Product 647,Toys,966.75,472,2.6,21,SP043,Fall,365044
+648,Home Decor Product 648,Home Decor,937.7,139,3.1,11,SP040,Winter,104272
+649,Sports Product 649,Sports,884.9,272,3.5,72,SP031,Summer,192554
+650,Sports Product 650,Sports,665.7,95,1.5,75,SP028,Winter,50593
+651,Kitchen Product 651,Kitchen,233.17,243,4.1,0,SP041,Summer,45328
+652,Home Appliances Product 652,Home Appliances,807,345,2,44,SP002,Winter,222732
+653,Home Appliances Product 653,Home Appliances,152.45,314,3.9,0,SP044,Summer,38295
+654,Automotive Product 654,Automotive,840.31,2,3.1,98,SP036,Fall,1344
+655,Sports Product 655,Sports,808.33,93,1.5,85,SP028,Winter,60139
+656,Books Product 656,Books,448.47,295,1.8,56,SP006,Spring,105838
+657,Furniture Product 657,Furniture,908.01,151,2,62,SP030,Fall,109687
+658,Home Appliances Product 658,Home Appliances,189.67,286,3.1,36,SP007,Winter,43396
+659,Automotive Product 659,Automotive,696.34,135,3.4,48,SP008,Fall,75204
+660,Automotive Product 660,Automotive,868.1,361,2.3,34,SP026,Summer,250707
+661,Home Appliances Product 661,Home Appliances,462.67,37,1.7,87,SP041,Spring,13695
+662,Beauty Product 662,Beauty,493.13,267,1.3,98,SP049,Fall,105332
+663,Electronics Product 663,Electronics,168.43,121,2.9,19,SP031,Fall,16304
+664,Kitchen Product 664,Kitchen,421.5,145,3,2,SP019,Fall,48894
+665,Home Appliances Product 665,Home Appliances,659.36,159,2.1,5,SP020,Winter,83870
+666,Garden Product 666,Garden,300.71,141,2.2,7,SP016,Spring,33920
+667,Clothing Product 667,Clothing,671.98,73,2.6,82,SP013,Summer,39243
+668,Books Product 668,Books,522.98,119,4,43,SP017,Winter,49787
+669,Toys Product 669,Toys,1005.54,327,4,72,SP040,Spring,263049
+670,Automotive Product 670,Automotive,456.06,290,1.2,33,SP016,Spring,105805
+671,Kitchen Product 671,Kitchen,497.05,202,1.9,52,SP039,Fall,80323
+672,Furniture Product 672,Furniture,254.61,62,1.1,96,SP007,Winter,12628
+673,Automotive Product 673,Automotive,542.72,143,2.7,15,SP013,Winter,62087
+674,Beauty Product 674,Beauty,760.86,278,3.8,77,SP025,Winter,169215
+675,Beauty Product 675,Beauty,341.65,25,1.8,51,SP047,Fall,6833
+676,Garden Product 676,Garden,413.01,238,1.7,23,SP014,Summer,78637
+677,Furniture Product 677,Furniture,804.64,320,2.1,63,SP002,Spring,205987
+678,Electronics Product 678,Electronics,823.94,441,3.9,81,SP041,Fall,290686
+679,Clothing Product 679,Clothing,833.53,357,3,68,SP019,Spring,238056
+680,Beauty Product 680,Beauty,750.58,28,3.3,16,SP006,Summer,16812
+681,Electronics Product 681,Electronics,834.75,80,2,72,SP008,Summer,53424
+682,Kitchen Product 682,Kitchen,79.95,18,2.9,27,SP004,Spring,1151
+683,Automotive Product 683,Automotive,467.67,185,5,94,SP017,Winter,69215
+684,Furniture Product 684,Furniture,53.35,110,4.2,13,SP041,Fall,4694
+685,Electronics Product 685,Electronics,857.6,473,4.7,6,SP005,Spring,324515
+686,Books Product 686,Books,464.04,295,5,85,SP047,Spring,109513
+687,Home Appliances Product 687,Home Appliances,941.96,493,3.9,59,SP027,Summer,371509
+688,Furniture Product 688,Furniture,954.14,493,2.3,89,SP016,Fall,376312
+689,Home Appliances Product 689,Home Appliances,458.82,386,3,89,SP010,Fall,141683
+690,Beauty Product 690,Beauty,478.59,346,2.8,73,SP046,Fall,132473
+691,Toys Product 691,Toys,307.65,22,2.6,49,SP031,Fall,5414
+692,Electronics Product 692,Electronics,729.7,172,2.6,32,SP012,Fall,100406
+693,Toys Product 693,Toys,150.48,165,1.5,18,SP008,Spring,19863
+694,Automotive Product 694,Automotive,836.56,434,3.9,63,SP039,Summer,290453
+695,Toys Product 695,Toys,394.91,108,3.9,74,SP025,Winter,34120
+696,Home Decor Product 696,Home Decor,1007.47,0,4.2,34,SP007,Winter,0
+697,Home Appliances Product 697,Home Appliances,762.23,305,5,52,SP042,Winter,185984
+698,Furniture Product 698,Furniture,391.72,388,2,98,SP020,Spring,121589
+699,Clothing Product 699,Clothing,50.02,356,1.3,29,SP049,Summer,14245
+700,Clothing Product 700,Clothing,478.22,276,2.1,5,SP008,Winter,105590
+701,Automotive Product 701,Automotive,214.23,420,2.6,19,SP050,Winter,71981
+702,Sports Product 702,Sports,571.3,115,4.6,61,SP016,Fall,52559
+703,Sports Product 703,Sports,32.97,112,3.7,13,SP039,Fall,2954
+704,Books Product 704,Books,155.21,11,4,32,SP033,Fall,1365
+705,Electronics Product 705,Electronics,271.89,150,3.7,36,SP017,Winter,32626
+706,Beauty Product 706,Beauty,750.17,427,1.4,64,SP002,Fall,256258
+707,Books Product 707,Books,115.26,116,5,83,SP045,Summer,10696
+708,Kitchen Product 708,Kitchen,355.57,439,3.7,24,SP006,Winter,124876
+709,Electronics Product 709,Electronics,957.25,88,3.3,57,SP016,Winter,67390
+710,Kitchen Product 710,Kitchen,896.62,62,1.1,45,SP002,Winter,44472
+711,Toys Product 711,Toys,752.02,370,3.8,8,SP022,Summer,222597
+712,Automotive Product 712,Automotive,746.12,131,4.3,92,SP050,Winter,78193
+713,Home Decor Product 713,Home Decor,261.11,420,3.1,65,SP016,Fall,87732
+714,Sports Product 714,Sports,334.94,328,4.6,81,SP042,Winter,87888
+715,Home Decor Product 715,Home Decor,364.27,389,3.3,33,SP002,Fall,113360
+716,Clothing Product 716,Clothing,212.79,241,1.4,24,SP005,Winter,41025
+717,Books Product 717,Books,315.83,448,1.1,98,SP028,Winter,113193
+718,Books Product 718,Books,272.39,163,4.9,62,SP047,Fall,35519
+719,Electronics Product 719,Electronics,320.71,276,2.6,74,SP016,Spring,70812
+720,Garden Product 720,Garden,87.66,141,2.6,87,SP007,Summer,9888
+721,Books Product 721,Books,641.38,41,3.5,48,SP032,Summer,21037
+722,Clothing Product 722,Clothing,401.89,465,3.2,62,SP019,Summer,149503
+723,Home Appliances Product 723,Home Appliances,930.34,4,1.4,71,SP043,Winter,2977
+724,Clothing Product 724,Clothing,192.66,284,3.7,26,SP025,Summer,43772
+725,Books Product 725,Books,322.49,112,4.7,57,SP018,Spring,28895
+726,Toys Product 726,Toys,884.92,248,1.7,44,SP010,Fall,175568
+727,Electronics Product 727,Electronics,982.44,354,4,98,SP042,Spring,278227
+728,Home Appliances Product 728,Home Appliances,89.33,100,3.8,49,SP007,Summer,7146
+729,Toys Product 729,Toys,477.04,22,1.8,28,SP005,Fall,8395
+730,Garden Product 730,Garden,860.37,175,4,37,SP050,Summer,120451
+731,Books Product 731,Books,391.4,100,3.8,84,SP012,Spring,31312
+732,Home Decor Product 732,Home Decor,21.64,49,1.1,90,SP007,Summer,848
+733,Home Appliances Product 733,Home Appliances,123.12,172,2.5,95,SP015,Summer,16941
+734,Home Decor Product 734,Home Decor,673.75,214,3,6,SP033,Fall,115346
+735,Furniture Product 735,Furniture,944.35,424,5,85,SP019,Summer,320323
+736,Clothing Product 736,Clothing,116.2,380,4.9,46,SP011,Spring,35324
+737,Toys Product 737,Toys,822.62,476,4,57,SP019,Fall,313253
+738,Clothing Product 738,Clothing,972.8,53,2.3,19,SP010,Fall,41246
+739,Furniture Product 739,Furniture,559.85,227,3.7,76,SP034,Fall,101668
+740,Kitchen Product 740,Kitchen,824.02,181,3.7,55,SP020,Winter,119318
+741,Beauty Product 741,Beauty,348.86,463,1.2,22,SP015,Spring,129217
+742,Furniture Product 742,Furniture,175.19,219,1.9,97,SP023,Fall,30693
+743,Sports Product 743,Sports,895.53,180,4.5,87,SP046,Fall,128956
+744,Clothing Product 744,Clothing,788.65,468,1.8,47,SP034,Fall,295270
+745,Furniture Product 745,Furniture,977.87,274,2.6,69,SP005,Spring,214349
+746,Kitchen Product 746,Kitchen,646.89,319,4.4,40,SP013,Spring,165086
+747,Home Appliances Product 747,Home Appliances,710.38,222,1.1,24,SP024,Fall,126163
+748,Clothing Product 748,Clothing,868.67,4,2.7,24,SP002,Summer,2779
+749,Automotive Product 749,Automotive,607.58,223,2.6,75,SP039,Spring,108392
+750,Furniture Product 750,Furniture,364.37,40,1.3,4,SP034,Summer,11659
+751,Home Appliances Product 751,Home Appliances,701.18,129,4,64,SP031,Winter,72361
+752,Furniture Product 752,Furniture,238.03,97,5,42,SP026,Summer,18471
+753,Home Decor Product 753,Home Decor,834.46,396,3.2,74,SP017,Summer,264356
+754,Kitchen Product 754,Kitchen,988.03,473,2.6,75,SP031,Summer,373870
+755,Home Appliances Product 755,Home Appliances,556.16,23,3,22,SP045,Winter,10233
+756,Automotive Product 756,Automotive,963.58,80,2.7,77,SP032,Fall,61669
+757,Electronics Product 757,Electronics,787.6,14,1.7,58,SP016,Winter,8821
+758,Automotive Product 758,Automotive,531.19,26,3.3,98,SP034,Summer,11048
+759,Kitchen Product 759,Kitchen,543.48,124,2.3,17,SP014,Winter,53913
+760,Books Product 760,Books,993.23,396,3.9,82,SP043,Summer,314655
+761,Beauty Product 761,Beauty,45.9,334,1.3,70,SP001,Fall,12264
+762,Clothing Product 762,Clothing,197.11,108,3.8,71,SP019,Fall,17030
+763,Home Appliances Product 763,Home Appliances,205.74,52,1.6,79,SP024,Fall,8558
+764,Electronics Product 764,Electronics,955.36,242,2.3,96,SP024,Fall,184957
+765,Sports Product 765,Sports,483.59,339,2.9,59,SP028,Winter,131149
+766,Home Decor Product 766,Home Decor,771.04,386,1.5,5,SP050,Winter,238097
+767,Clothing Product 767,Clothing,448.35,480,3.9,77,SP021,Winter,172166
+768,Books Product 768,Books,56.86,12,1.8,86,SP032,Winter,545
+769,Home Appliances Product 769,Home Appliances,73.43,465,4.7,94,SP027,Fall,27315
+770,Garden Product 770,Garden,871.58,436,1.6,17,SP007,Winter,304007
+771,Sports Product 771,Sports,52.74,132,3.4,9,SP041,Winter,5569
+772,Toys Product 772,Toys,338.82,303,4.6,52,SP037,Summer,82129
+773,Books Product 773,Books,941,481,2.7,2,SP039,Spring,362096
+774,Kitchen Product 774,Kitchen,913.62,470,1.2,98,SP001,Summer,343521
+775,Clothing Product 775,Clothing,448.53,428,4.9,55,SP018,Summer,153576
+776,Home Decor Product 776,Home Decor,241.84,305,1.3,85,SP009,Summer,59008
+777,Electronics Product 777,Electronics,946.8,333,3.3,74,SP037,Fall,252227
+778,Home Decor Product 778,Home Decor,243.59,103,3.4,31,SP014,Spring,20071
+779,Home Appliances Product 779,Home Appliances,358.4,97,1,32,SP013,Winter,27811
+780,Garden Product 780,Garden,627.57,166,3.8,18,SP019,Winter,83341
+781,Garden Product 781,Garden,599.63,259,2.6,75,SP046,Fall,124243
+782,Furniture Product 782,Furniture,728.63,155,3,0,SP017,Winter,90350
+783,Kitchen Product 783,Kitchen,157.67,211,4,48,SP043,Spring,26614
+784,Furniture Product 784,Furniture,694.62,183,1.3,48,SP036,Spring,101692
+785,Electronics Product 785,Electronics,280.5,8,1.9,59,SP012,Spring,1795
+786,Kitchen Product 786,Kitchen,292.08,2,1.6,86,SP050,Winter,467
+787,Furniture Product 787,Furniture,485.63,141,2.8,35,SP029,Spring,54779
+788,Home Appliances Product 788,Home Appliances,279.52,199,2.3,43,SP048,Winter,44499
+789,Garden Product 789,Garden,484.66,358,1.1,25,SP037,Winter,138806
+790,Automotive Product 790,Automotive,26.86,269,3.5,52,SP004,Fall,5780
+791,Furniture Product 791,Furniture,405.62,184,2.4,65,SP005,Winter,59707
+792,Kitchen Product 792,Kitchen,1006.36,283,4.2,57,SP050,Winter,227839
+793,Kitchen Product 793,Kitchen,1006.74,323,2.5,46,SP049,Summer,260141
+794,Clothing Product 794,Clothing,595.9,9,2,44,SP044,Fall,4290
+795,Electronics Product 795,Electronics,811.47,213,1.7,45,SP028,Fall,138274
+796,Home Decor Product 796,Home Decor,45.4,43,1.9,6,SP036,Summer,1561
+797,Books Product 797,Books,591.37,378,1.8,28,SP032,Fall,178830
+798,Beauty Product 798,Beauty,319.62,103,1.1,76,SP050,Winter,26336
+799,Home Appliances Product 799,Home Appliances,32.97,483,1.3,14,SP023,Winter,12739
+800,Beauty Product 800,Beauty,140.8,477,1.4,20,SP023,Summer,53729
+801,Automotive Product 801,Automotive,810.56,32,5,36,SP003,Spring,20750
+802,Electronics Product 802,Electronics,709.04,489,2.4,42,SP009,Spring,277376
+803,Furniture Product 803,Furniture,246.29,203,2.8,95,SP035,Spring,39997
+804,Home Appliances Product 804,Home Appliances,934.02,40,4.7,9,SP014,Fall,29888
+805,Furniture Product 805,Furniture,954.22,343,3.9,13,SP002,Summer,261837
+806,Furniture Product 806,Furniture,858.44,319,3.3,25,SP021,Fall,219073
+807,Furniture Product 807,Furniture,222.07,366,1.4,79,SP020,Fall,65022
+808,Beauty Product 808,Beauty,226.31,311,4.9,99,SP007,Winter,56305
+809,Beauty Product 809,Beauty,131.31,451,4.5,64,SP032,Winter,47376
+810,Furniture Product 810,Furniture,922.28,438,4.9,48,SP032,Summer,323166
+811,Automotive Product 811,Automotive,503.14,191,3.1,50,SP006,Summer,76879
+812,Toys Product 812,Toys,845.15,176,1.8,42,SP011,Summer,118997
+813,Kitchen Product 813,Kitchen,151.95,325,1.8,81,SP009,Summer,39507
+814,Toys Product 814,Toys,522.93,13,3.3,2,SP028,Fall,5438
+815,Books Product 815,Books,374.33,422,2,29,SP008,Summer,126373
+816,Home Appliances Product 816,Home Appliances,956.79,371,1.2,22,SP029,Summer,283975
+817,Furniture Product 817,Furniture,367.37,345,4.8,45,SP002,Summer,101394
+818,Furniture Product 818,Furniture,653.74,426,2.2,50,SP029,Winter,222794
+819,Home Appliances Product 819,Home Appliances,634.9,393,3.4,82,SP049,Spring,199612
+820,Furniture Product 820,Furniture,65.46,130,2.7,11,SP047,Winter,6807
+821,Garden Product 821,Garden,904.79,483,2,61,SP024,Fall,349610
+822,Furniture Product 822,Furniture,970.04,201,1.2,19,SP001,Winter,155982
+823,Toys Product 823,Toys,889.26,103,4.2,86,SP039,Summer,73275
+824,Clothing Product 824,Clothing,760.09,172,1.5,16,SP044,Winter,104588
+825,Furniture Product 825,Furniture,562.7,0,3,22,SP047,Spring,0
+826,Beauty Product 826,Beauty,399.34,484,2.1,11,SP006,Winter,154624
+827,Home Decor Product 827,Home Decor,854.25,246,2.6,63,SP035,Winter,168116
+828,Books Product 828,Books,87.44,27,3.7,8,SP048,Fall,1888
+829,Books Product 829,Books,511.7,357,4.8,59,SP038,Spring,146141
+830,Automotive Product 830,Automotive,457.37,453,2.7,10,SP029,Spring,165750
+831,Kitchen Product 831,Kitchen,113.15,111,1.6,29,SP017,Summer,10047
+832,Automotive Product 832,Automotive,531.16,65,3.7,43,SP041,Fall,27620
+833,Books Product 833,Books,381.17,258,1.1,37,SP029,Summer,78673
+834,Clothing Product 834,Clothing,307.15,272,2,44,SP007,Spring,66835
+835,Electronics Product 835,Electronics,623.06,265,1.6,99,SP019,Fall,132088
+836,Electronics Product 836,Electronics,814.69,99,3.9,67,SP032,Fall,64523
+837,Books Product 837,Books,771.44,410,2.7,43,SP036,Fall,253032
+838,Sports Product 838,Sports,221.57,236,2.9,63,SP028,Winter,41832
+839,Toys Product 839,Toys,623.1,352,4.5,96,SP050,Winter,175464
+840,Home Decor Product 840,Home Decor,892.03,382,3.9,79,SP043,Winter,272604
+841,Sports Product 841,Sports,261.08,386,2.1,19,SP022,Winter,80621
+842,Toys Product 842,Toys,124.05,219,4.5,34,SP005,Spring,21733
+843,Toys Product 843,Toys,70.67,50,2,67,SP003,Fall,2826
+844,Beauty Product 844,Beauty,864.35,381,4.5,96,SP029,Winter,263453
+845,Home Decor Product 845,Home Decor,596.38,465,2.4,76,SP011,Fall,221853
+846,Home Appliances Product 846,Home Appliances,841.69,101,4.3,99,SP038,Summer,68008
+847,Toys Product 847,Toys,973.92,203,2.4,24,SP001,Spring,158164
+848,Sports Product 848,Sports,120.52,234,2.9,1,SP034,Winter,22561
+849,Books Product 849,Books,681.51,54,4.2,43,SP042,Spring,29441
+850,Garden Product 850,Garden,543.03,169,2.3,29,SP007,Winter,73417
+851,Toys Product 851,Toys,213.16,183,1.2,54,SP013,Summer,31206
+852,Beauty Product 852,Beauty,809.27,470,2.4,38,SP013,Winter,304285
+853,Automotive Product 853,Automotive,972.02,148,1.1,1,SP003,Spring,115087
+854,Beauty Product 854,Beauty,475.12,353,1.8,45,SP046,Spring,134173
+855,Electronics Product 855,Electronics,428.59,43,1.7,8,SP024,Summer,14743
+856,Furniture Product 856,Furniture,663.24,284,3.9,37,SP005,Winter,150688
+857,Garden Product 857,Garden,379.67,210,3.3,59,SP046,Winter,63784
+858,Kitchen Product 858,Kitchen,854.78,424,1.5,90,SP023,Winter,289941
+859,Electronics Product 859,Electronics,643.58,114,4.6,94,SP016,Fall,58694
+860,Kitchen Product 860,Kitchen,333.01,336,2.3,93,SP045,Summer,89513
+861,Electronics Product 861,Electronics,616.62,214,3.8,47,SP019,Fall,105565
+862,Sports Product 862,Sports,77.39,67,3.4,66,SP017,Fall,4148
+863,Toys Product 863,Toys,823.67,317,2.5,68,SP039,Spring,208882
+864,Garden Product 864,Garden,572.86,372,3.3,42,SP045,Fall,170483
+865,Clothing Product 865,Clothing,681.2,289,2,41,SP029,Spring,157493
+866,Kitchen Product 866,Kitchen,271.65,130,4.4,99,SP039,Winter,28251
+867,Toys Product 867,Toys,114.19,397,4.6,25,SP040,Spring,36266
+868,Sports Product 868,Sports,782.35,436,3.2,24,SP030,Spring,272883
+869,Home Decor Product 869,Home Decor,282.92,31,2.2,16,SP023,Winter,7016
+870,Automotive Product 870,Automotive,863.42,149,2,3,SP026,Fall,102919
+871,Kitchen Product 871,Kitchen,208.39,171,3.8,90,SP011,Fall,28507
+872,Home Appliances Product 872,Home Appliances,256.69,90,4.9,32,SP043,Fall,18481
+873,Beauty Product 873,Beauty,80.08,406,2.3,89,SP039,Spring,26009
+874,Toys Product 874,Toys,540.11,166,4.3,37,SP001,Winter,71726
+875,Home Appliances Product 875,Home Appliances,814.05,231,4.3,35,SP009,Fall,150436
+876,Books Product 876,Books,12.99,248,4.9,85,SP006,Spring,2577
+877,Home Decor Product 877,Home Decor,335.52,234,2.5,20,SP034,Winter,62809
+878,Kitchen Product 878,Kitchen,908.78,144,2.7,21,SP017,Winter,104691
+879,Sports Product 879,Sports,83.85,169,3.5,63,SP012,Winter,11336
+880,Books Product 880,Books,534.99,330,3.3,71,SP008,Fall,141237
+881,Home Decor Product 881,Home Decor,657.99,99,3.9,87,SP005,Spring,52112
+882,Kitchen Product 882,Kitchen,154.71,218,1.3,9,SP020,Summer,26981
+883,Sports Product 883,Sports,698.58,172,2.9,73,SP008,Spring,96124
+884,Sports Product 884,Sports,95.6,470,3.4,77,SP047,Spring,35945
+885,Home Decor Product 885,Home Decor,93.31,411,1.4,44,SP011,Spring,30680
+886,Furniture Product 886,Furniture,166.11,77,1.4,2,SP004,Spring,10232
+887,Clothing Product 887,Clothing,396.09,380,1.5,14,SP031,Spring,120411
+888,Home Appliances Product 888,Home Appliances,513.78,372,1.1,28,SP011,Spring,152900
+889,Automotive Product 889,Automotive,894.36,121,3.7,69,SP020,Winter,86574
+890,Clothing Product 890,Clothing,907.56,6,1.7,69,SP026,Spring,4356
+891,Toys Product 891,Toys,499.24,143,3.6,33,SP003,Winter,57113
+892,Books Product 892,Books,695.01,104,3.2,95,SP016,Winter,57824
+893,Toys Product 893,Toys,903.8,170,1.9,40,SP039,Fall,122916
+894,Kitchen Product 894,Kitchen,324.15,165,1.9,90,SP016,Winter,42787
+895,Garden Product 895,Garden,413.61,131,1.2,61,SP012,Fall,43346
+896,Clothing Product 896,Clothing,401.35,340,1.6,13,SP041,Spring,109167
+897,Kitchen Product 897,Kitchen,571.46,363,3.4,39,SP039,Spring,165951
+898,Clothing Product 898,Clothing,732.76,439,2,56,SP017,Fall,257345
+899,Clothing Product 899,Clothing,790.13,408,3.8,4,SP020,Spring,257898
+900,Beauty Product 900,Beauty,319.06,267,2.9,40,SP040,Fall,68151
+901,Clothing Product 901,Clothing,51.86,240,2.1,17,SP010,Winter,9957
+902,Garden Product 902,Garden,249.87,357,2.2,48,SP050,Winter,71362
+903,Garden Product 903,Garden,695.21,21,1.2,60,SP004,Fall,11679
+904,Books Product 904,Books,846.07,366,4.8,62,SP037,Spring,247729
+905,Furniture Product 905,Furniture,288.4,201,2.4,64,SP017,Winter,46374
+906,Home Appliances Product 906,Home Appliances,406.08,48,1.2,58,SP029,Winter,15593
+907,Toys Product 907,Toys,793.79,409,3.9,5,SP005,Summer,259728
+908,Automotive Product 908,Automotive,919.45,249,4.3,95,SP022,Fall,183154
+909,Sports Product 909,Sports,460.97,183,2.7,18,SP042,Fall,67486
+910,Books Product 910,Books,124.75,342,3.8,28,SP015,Winter,34131
+911,Toys Product 911,Toys,982.48,222,4.9,45,SP015,Winter,174488
+912,Home Decor Product 912,Home Decor,477.29,238,1.6,35,SP012,Spring,90876
+913,Sports Product 913,Sports,53.84,489,3.4,73,SP034,Fall,21062
+914,Books Product 914,Books,1005.41,199,1.3,59,SP009,Spring,160061
+915,Electronics Product 915,Electronics,330.63,5,4,23,SP024,Summer,1322
+916,Furniture Product 916,Furniture,988.07,67,2.1,71,SP006,Summer,52960
+917,Toys Product 917,Toys,652.64,411,1.6,65,SP037,Spring,214588
+918,Clothing Product 918,Clothing,857.83,486,2.5,8,SP015,Fall,333524
+919,Toys Product 919,Toys,949.52,48,4,3,SP009,Summer,36461
+920,Sports Product 920,Sports,878.62,227,1,29,SP041,Fall,159557
+921,Toys Product 921,Toys,423.07,182,2.9,99,SP028,Summer,61598
+922,Kitchen Product 922,Kitchen,638.46,252,3,33,SP009,Summer,128713
+923,Automotive Product 923,Automotive,20.23,330,1.3,15,SP026,Winter,5340
+924,Electronics Product 924,Electronics,456.91,94,2.6,48,SP049,Fall,34359
+925,Automotive Product 925,Automotive,822.21,272,4.9,42,SP040,Fall,178912
+926,Home Appliances Product 926,Home Appliances,258.52,74,4,40,SP009,Summer,15304
+927,Automotive Product 927,Automotive,676.53,0,2.9,1,SP001,Winter,0
+928,Beauty Product 928,Beauty,64.24,179,2.7,18,SP026,Winter,9199
+929,Furniture Product 929,Furniture,81.4,441,4.8,91,SP039,Winter,28717
+930,Toys Product 930,Toys,794.99,310,1.3,93,SP041,Summer,197157
+931,Garden Product 931,Garden,912.47,273,5,17,SP008,Summer,199283
+932,Automotive Product 932,Automotive,443.51,304,4,61,SP030,Winter,107861
+933,Kitchen Product 933,Kitchen,360.67,420,3,8,SP020,Winter,121185
+934,Electronics Product 934,Electronics,826.59,337,1.5,58,SP030,Spring,222848
+935,Toys Product 935,Toys,127.69,195,4.7,67,SP014,Summer,19919
+936,Electronics Product 936,Electronics,386.8,170,2.2,62,SP038,Summer,52604
+937,Clothing Product 937,Clothing,876.2,322,3.5,66,SP003,Fall,225709
+938,Home Decor Product 938,Home Decor,650.89,16,3.2,7,SP038,Spring,8331
+939,Clothing Product 939,Clothing,344.69,244,3.6,88,SP037,Spring,67283
+940,Sports Product 940,Sports,458,311,4.5,50,SP037,Winter,113950
+941,Kitchen Product 941,Kitchen,228.79,498,4.2,46,SP004,Summer,91149
+942,Toys Product 942,Toys,28.88,185,1.1,79,SP034,Summer,4274
+943,Books Product 943,Books,287.87,206,2.4,37,SP038,Fall,47440
+944,Furniture Product 944,Furniture,33.09,463,3.6,32,SP040,Summer,12256
+945,Automotive Product 945,Automotive,361.07,400,3.8,71,SP046,Winter,115542
+946,Toys Product 946,Toys,713.11,480,2.7,66,SP004,Fall,273834
+947,Clothing Product 947,Clothing,568.75,335,3,76,SP012,Summer,152425
+948,Home Appliances Product 948,Home Appliances,617.98,63,4.8,69,SP028,Winter,31146
+949,Toys Product 949,Toys,358.04,279,4.7,77,SP006,Fall,79914
+950,Beauty Product 950,Beauty,216.87,232,1.1,38,SP036,Winter,40251
+951,Automotive Product 951,Automotive,1005.82,263,1.2,14,SP024,Winter,211624
+952,Electronics Product 952,Electronics,334.75,131,4.8,62,SP038,Winter,35081
+953,Sports Product 953,Sports,726.91,321,3.8,98,SP030,Fall,186670
+954,Automotive Product 954,Automotive,517.17,263,2.5,90,SP035,Summer,108812
+955,Home Decor Product 955,Home Decor,475.67,465,3.3,38,SP005,Fall,176949
+956,Sports Product 956,Sports,1004.16,176,1.7,68,SP002,Summer,141385
+957,Electronics Product 957,Electronics,954.4,236,4.6,93,SP038,Summer,180190
+958,Kitchen Product 958,Kitchen,648.69,128,4.9,72,SP006,Summer,66425
+959,Sports Product 959,Sports,1008.84,499,3.4,62,SP010,Spring,402728
+960,Furniture Product 960,Furniture,494.99,472,4.9,51,SP016,Fall,186908
+961,Garden Product 961,Garden,256.28,108,1.9,1,SP022,Fall,22142
+962,Electronics Product 962,Electronics,480.2,399,4.4,54,SP013,Spring,153279
+963,Clothing Product 963,Clothing,265.99,262,4.2,77,SP035,Spring,55751
+964,Home Appliances Product 964,Home Appliances,46.53,11,2.5,0,SP007,Fall,409
+965,Automotive Product 965,Automotive,901.38,265,4.1,84,SP040,Spring,191092
+966,Garden Product 966,Garden,377.14,359,1.4,42,SP023,Summer,108314
+967,Kitchen Product 967,Kitchen,419.62,122,3.8,14,SP008,Fall,40954
+968,Toys Product 968,Toys,324.77,363,2.1,93,SP036,Fall,94313
+969,Home Decor Product 969,Home Decor,632.57,95,4.8,57,SP007,Summer,48075
+970,Sports Product 970,Sports,181.72,448,4.9,46,SP004,Fall,65128
+971,Electronics Product 971,Electronics,423.47,445,4.9,17,SP025,Fall,150755
+972,Electronics Product 972,Electronics,401.46,246,2.6,11,SP002,Winter,79007
+973,Beauty Product 973,Beauty,955.68,350,3.3,75,SP010,Summer,267590
+974,Beauty Product 974,Beauty,790.92,453,1.4,9,SP050,Winter,286629
+975,Toys Product 975,Toys,275.17,473,3.6,98,SP003,Summer,104124
+976,Clothing Product 976,Clothing,205.66,30,1.8,25,SP044,Summer,4935
+977,Home Appliances Product 977,Home Appliances,128.1,457,2.4,76,SP010,Summer,46833
+978,Beauty Product 978,Beauty,316.19,149,2.8,12,SP040,Winter,37689
+979,Garden Product 979,Garden,622.88,174,3.4,4,SP009,Summer,86704
+980,Clothing Product 980,Clothing,867.99,304,2.3,48,SP032,Winter,211095
+981,Electronics Product 981,Electronics,716.14,127,1.4,66,SP019,Fall,72759
+982,Automotive Product 982,Automotive,112.15,218,4.8,2,SP036,Spring,19558
+983,Toys Product 983,Toys,123.88,393,3.7,32,SP011,Spring,38947
+984,Automotive Product 984,Automotive,122.61,100,3.8,24,SP035,Spring,9808
+985,Electronics Product 985,Electronics,613.3,43,2.2,32,SP050,Winter,21097
+986,Clothing Product 986,Clothing,522.78,240,4.9,51,SP011,Summer,100373
+987,Furniture Product 987,Furniture,413.72,326,1.6,96,SP030,Winter,107898
+988,Home Appliances Product 988,Home Appliances,745.06,443,1.3,44,SP045,Fall,264049
+989,Home Appliances Product 989,Home Appliances,564.38,9,3.2,56,SP042,Fall,4063
+990,Clothing Product 990,Clothing,179.15,146,4.8,31,SP011,Spring,20924
+991,Beauty Product 991,Beauty,753.9,445,4.2,56,SP010,Fall,268388
+992,Clothing Product 992,Clothing,665.2,481,3.2,9,SP030,Summer,255968
+993,Beauty Product 993,Beauty,212.76,389,4.6,29,SP036,Winter,66210
+994,Clothing Product 994,Clothing,515.44,105,4.2,12,SP021,Winter,43296
+995,Books Product 995,Books,973.77,465,3.8,44,SP042,Fall,362242
+996,Home Appliances Product 996,Home Appliances,425.12,4,2,74,SP027,Winter,1360
+997,Sports Product 997,Sports,456.01,247,3.5,48,SP016,Spring,90107
+998,Home Appliances Product 998,Home Appliances,561.75,473,2.9,64,SP032,Summer,212566
+999,Kitchen Product 999,Kitchen,397.93,269,2.6,65,SP037,Fall,85634
+1000,Kitchen Product 1000,Kitchen,809.3,102,1.8,63,SP025,Summer,66038
